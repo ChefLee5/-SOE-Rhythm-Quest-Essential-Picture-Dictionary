@@ -221,12 +221,6 @@
 | 18 | Swimming pool | /SWIM-ing POOL/ | The hotel swimming pool is open until nine P.M. | Fingerspell or sign each word | ___________ |
 | 19 | Luggage rack | /LUG-ij RAK/ | Place your suitcase on the luggage rack. | Fingerspell or sign each word | ___________ |
 | 20 | Complimentary | /kom-plih-MEN-tuh-ree/ | The complimentary breakfast is free for all guests. | Fingerspell or sign each word | ___________ |
-| 21 | Concierge | /kon-see-AIRZH/ | Ask the concierge for restaurant recommendations. | Fingerspell or sign each word | ___________ |
-| 22 | Amenities | /uh-MEN-ih-teez/ | The hotel amenities include a gym and a pool. | Fingerspell or sign each word | ___________ |
-| 23 | Valet | /va-LAY/ | The valet parks your car when you arrive. | Fingerspell VALET | ___________ |
-| 24 | Extension | /ek-STEN-shun/ | Request an extension if you need to stay another night. | Fingerspell or sign each word | ___________ |
-| 25 | Early bird rate | /UR-lee BURD RAYT/ | Book an early bird rate for a lower price. | Fingerspell or sign each word | ___________ |
-| 26 | Late checkout | /LAYT CHEK-owt/ | Request late checkout if your flight is in the evening. | Fingerspell or sign each word | ___________ |
 
 > **🏨 Ronan's Tip:** *"Practice checking in! Say: 'Hello, I have a RESERVATION under the name ___. What FLOOR is my room on? What time is CHECK-OUT?' You're ready for any hotel in the world!"*
 
@@ -565,7 +559,7 @@
 
 ## Scene 16: Bicycle & Walking
 
-*Nerissa and Reef explore Aquaria on foot and by bike*
+*Ronan and Nerissa explore Aquaria on foot and by bike*
 
 | # | Word | Phonetic | In the Story... | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -595,7 +589,7 @@
 | 24 | Escalator | /ES-kuh-lay-ter/ | The escalator moves you up automatically. | Fingerspell or sign each word | ___________ |
 | 25 | Shortcut | /SHORT-kut/ | Take the shortcut through the park. | Fingerspell or sign each word | ___________ |
 
-> **🚲 Reef's Tip:** *"Walk and bike everywhere! Name what you see: SIDEWALK, CROSSWALK, BIKE LANE!"*
+> **🚲 Ronan's Tip:** *"Walk and bike everywhere! Name what you see: SIDEWALK, CROSSWALK, BIKE LANE!"*
 
 ---
 
@@ -637,7 +631,7 @@
 
 ## Scene 18: Map Reading & GPS
 
-*Reef learns to navigate using maps and technology*
+*Ronan learns to navigate using maps and technology*
 
 | # | Word | Phonetic | In the Story... | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -667,13 +661,13 @@
 | 24 | Scenic route | /SEE-nik ROOT/ | Take the scenic route to enjoy the view. | Fingerspell or sign each word | ___________ |
 | 25 | Satellite | /SAT-uh-lyt/ | GPS uses satellite signals to locate you. | Fingerspell or sign each word | ___________ |
 
-> **🗺 Reef's Tip:** *"NORTH, SOUTH, EAST, WEST. Say directions out loud when using your GPS!"*
+> **🗺 Ronan's Tip:** *"NORTH, SOUTH, EAST, WEST. Say directions out loud when using your GPS!"*
 
 ---
 
 ## Scene 19: Restaurants & Dining
 
-*Nerissa and Reef dine at the Aquaria Seaside Cafe*
+*Ronan and Nerissa dine at the Aquaria Seaside Cafe*
 
 | # | Word | Phonetic | In the Story... | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|

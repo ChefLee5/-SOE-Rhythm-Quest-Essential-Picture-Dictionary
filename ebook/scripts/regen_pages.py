@@ -18,8 +18,8 @@ PAGES_TO_FIX = {
     ("land3_terrasol.md", 7):  "land3-silas-vestas-cottage-outside.xhtml",
     ("land3_terrasol.md", 14): "land3-rocks-minerals.xhtml",
     ("land3_terrasol.md", 15): "land3-recycling-sustainability.xhtml",
-    ("land6_sophia.md", 9):    "land6-community-helpers-services.xhtml",
-    ("land6_sophia.md", 10):   "land6-rights-responsibilities.xhtml",
+    ("land6_luminosity.md", 9):    "land6-community-helpers-services.xhtml",
+    ("land6_luminosity.md", 10):   "land6-rights-responsibilities.xhtml",
     ("land7_celestia.md", 7):  "land7-the-scientific-method.xhtml",
     ("land7_celestia.md", 8):  "land7-the-calendar-cycles.xhtml",
     ("land7_celestia.md", 10): "land7-the-future-dreams.xhtml",
@@ -34,12 +34,12 @@ LAND_INFO = {
         "char1": "Silas", "char2": "Vesta",
         "char_desc": "Guided by <strong>Silas</strong> the Farmer &amp; <strong>Vesta</strong> the Nature Guide",
     },
-    "land6_sophia.md": {
+    "land6_luminosity.md": {
         "land_num": 6, "land_total": 7,
-        "land_name": "Sophia", "land_icon": "📚",
-        "accent": "#c47878",
-        "char1": "Marcus", "char2": "Elena",
-        "char_desc": "Guided by <strong>Marcus</strong> the Community Leader &amp; <strong>Elena</strong> the Teacher",
+        "land_name": "Luminosity", "land_icon": "📖",
+        "accent": "#d4897a",
+        "char1": "Ezra", "char2": "Athena",
+        "char_desc": "Guided by <strong>Ezra</strong> the Builder &amp; <strong>Athena</strong> the Wise",
     },
     "land7_celestia.md": {
         "land_num": 7, "land_total": 7,

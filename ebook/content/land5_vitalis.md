@@ -536,7 +536,7 @@
 
 ## Scene 13: First Aid & Injuries
 
-*At the Vitalis First Aid Station, Zara teaches emergency care*
+*At the Vitalis First Aid Station, Amara teaches emergency care*
 
 | # | Word | Phonetic | In the Story... | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -566,13 +566,13 @@
 | 24 | Stretcher | /STRECH-er/ | The paramedic placed the patient on a stretcher. | Fingerspell or sign each word | ___________ |
 | 25 | Recover | /rih-KUV-er/ | Rest and fluids help you recover faster. | Fingerspell or sign each word | ___________ |
 
-> **🩹 Zara's Tip:** *"BANDAGE, ICE, SPLINT — first aid words can save a life!"*
+> **🩹 Amara's Tip:** *"BANDAGE, ICE, SPLINT — first aid words can save a life!"*
 
 ---
 
 ## Scene 14: Eye Care & Vision
 
-*At the Vitalis Eye Clinic, Zara learns about seeing clearly*
+*At the Vitalis Eye Clinic, Amara learns about seeing clearly*
 
 | # | Word | Phonetic | In the Story... | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -602,7 +602,7 @@
 | 24 | Reading glasses | /REE-ding GLAS-ez/ | Reading glasses help you see small print. | Fingerspell or sign each word | ___________ |
 | 25 | Eye drops | /EYE DROPS/ | Use eye drops when your eyes feel dry. | Fingerspell or sign each word | ___________ |
 
-> **👁 Zara's Tip:** *"Your EYES are precious! Know: GLASSES, CONTACTS, EYE EXAM."*
+> **👁 Amara's Tip:** *"Your EYES are precious! Know: GLASSES, CONTACTS, EYE EXAM."*
 
 ---
 
@@ -638,13 +638,13 @@
 | 24 | Relax | /rih-LAKS/ | Relax your muscles before bed. | Fingerspell RELAX | ___________ |
 | 25 | Routine | /roo-TEEN/ | A bedtime routine helps you fall asleep faster. | Fingerspell or sign each word | ___________ |
 
-> **😴 Zara's Tip:** *"Sleep is MEDICINE! BED, PILLOW, REST, DREAM — healthy bodies need healthy sleep."*
+> **😴 Amara's Tip:** *"Sleep is MEDICINE! BED, PILLOW, REST, DREAM — healthy bodies need healthy sleep."*
 
 ---
 
 ## Scene 16: Personal Care Products
 
-*At the Vitalis Hygiene Market, Zara names every product*
+*At the Vitalis Hygiene Market, Amara names every product*
 
 | # | Word | Phonetic | In the Story... | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -674,7 +674,7 @@
 | 24 | Tweezers | /TWEE-zerz/ | Use tweezers to remove a splinter. | Fingerspell or sign each word | ___________ |
 | 25 | Q-tip | /KYOO-tip/ | Use a Q-tip carefully to clean your ears. | Fingerspell Q-TIP | ___________ |
 
-> **🧴 Zara's Tip:** *"Name every product in your bathroom! SHAMPOO, TOOTHPASTE, DEODORANT!"*
+> **🧴 Amara's Tip:** *"Name every product in your bathroom! SHAMPOO, TOOTHPASTE, DEODORANT!"*
 
 ---
 
@@ -710,7 +710,7 @@
 | 24 | Cool down | /KOOL DOWN/ | Cool down with stretches after the game. | Both hot hands cool, wave gently | ___________ |
 | 25 | Sportsmanship | /SPORTS-mun-ship/ | Good sportsmanship means playing fair. | S on S (FAIR + PLAY) | ___________ |
 
-> **⚽ Zara's Tip:** *"What sport do YOU play? SOCCER, BASKETBALL, SWIMMING? Say it in English!"*
+> **⚽ Amara's Tip:** *"What sport do YOU play? SOCCER, BASKETBALL, SWIMMING? Say it in English!"*
 
 ---
 

@@ -1,4 +1,4 @@
-# Land 6: Sophia — Essential Picture Dictionary
+# Land 6: Luminosity — Essential Picture Dictionary
 
 ## Characters: Ezra & Athena
 
@@ -8,7 +8,7 @@
 
 ## Scene 1: Occupations & Careers
 
-*Ezra and Athena visit the Sophia Career Fair, where workers from every field share what they do.*
+*Ezra and Athena visit the Luminosity Career Fair, where workers from every field share what they do.*
 
 | # | Word | Phonetic | In the Story… | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -44,7 +44,7 @@
 
 ## Scene 2: Types of Workers
 
-*In every corner of Sophia, people work to keep the community running. Athena lists them all.*
+*In every corner of Luminosity, people work to keep the community running. Athena lists them all.*
 
 | # | Word | Phonetic | In the Story… | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -85,7 +85,7 @@
 
 ## Scene 3: The Workplace
 
-*Ezra shows the inside of a typical Sophia office. Everything has a name and a function.*
+*Ezra shows the inside of a typical Luminosity office. Everything has a name and a function.*
 
 | # | Word | Phonetic | In the Story… | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -116,7 +116,7 @@
 
 ## Scene 4: Tools & Construction
 
-*The Sophia Build Yard is where Ezra and Athena learn the names of every tool used to create and repair.*
+*The Luminosity Build Yard is where Ezra and Athena learn the names of every tool used to create and repair.*
 
 | # | Word | Phonetic | In the Story… | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -157,7 +157,7 @@
 
 ## Scene 5: Safety & Emergencies
 
-*In the Sophia Safety Center, Ezra and Athena learn the words that can save a life.*
+*In the Luminosity Safety Center, Ezra and Athena learn the words that can save a life.*
 
 | # | Word | Phonetic | In the Story… | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -188,7 +188,7 @@
 
 ## Scene 6: Government & Civics
 
-*In the Sophia Hall of Governance, Athena explains how communities organize and make decisions together.*
+*In the Luminosity Hall of Governance, Athena explains how communities organize and make decisions together.*
 
 | # | Word | Phonetic | In the Story… | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -224,7 +224,7 @@
 
 ## Scene 7: Money Management & Bills
 
-*Ezra and Athena sit at the kitchen table in Sophia, organizing their monthly expenses.*
+*Ezra and Athena sit at the kitchen table in Luminosity, organizing their monthly expenses.*
 
 | # | Word | Phonetic | In the Story… | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -248,12 +248,6 @@
 | 18 | Paycheck | /PAY-chek/ | The paycheck arrives every two weeks. | Fingerspell or sign each word | ___________ |
 | 19 | Direct deposit | /dih-REKT dih-POZ-it/ | Direct deposit puts money straight into your bank. | Fingerspell or sign each word | ___________ |
 | 20 | Savings | /SAY-vingz/ | Put ten percent of every paycheck into savings. | Both hands scoop toward body (gathering) | ___________ |
-| 21 | Auto-pay | /AW-toh-PAY/ | Set up auto-pay so bills are never late. | Fingerspell or sign each word | ___________ |
-| 22 | Overdraft protection | /OH-ver-draft proh-TEK-shun/ | Overdraft protection stops your account from going negative. | Fingerspell or sign each word | ___________ |
-| 23 | Co-pay | /KOH-pay/ | Pay a co-pay each time you visit the doctor. | Fingerspell or sign each word | ___________ |
-| 24 | Subscription | /sub-SKRIP-shun/ | A streaming subscription charges a monthly fee. | Fingerspell or sign each word | ___________ |
-| 25 | Emergency fund | /ih-MUR-jen-see FUND/ | An emergency fund covers unexpected expenses. | Fingerspell or sign each word | ___________ |
-| 26 | Net pay | /NET PAY/ | Net pay is what you take home after taxes. | Fingerspell or sign each word | ___________ |
 
 > **🧾 Ezra's Tip:** *"Adulting in English means knowing money words. Practice: 'I pay RENT. I pay my BILLS. I have a BUDGET. I put money in SAVINGS.' These are power sentences for grown-up life!"*
 
@@ -261,7 +255,7 @@
 
 ## Scene 8: School Subjects & Education
 
-*The Sophia Academy teaches every subject. Athena walks through the halls naming each one.*
+*The Luminosity Academy teaches every subject. Athena walks through the halls naming each one.*
 
 | # | Word | Phonetic | In the Story… | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -292,7 +286,7 @@
 
 ## Scene 9: Community Helpers & Services
 
-*The people of Sophia take care of each other. Every helper has a title and a task.*
+*The people of Luminosity take care of each other. Every helper has a title and a task.*
 
 | # | Word | Phonetic | In the Story… | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -311,16 +305,6 @@
 | 13 | Dispatcher | /dis-PACH-er/ | The 911 dispatcher sends help to the right location. | Fingerspell or sign each word | ___________ |
 | 14 | Lifeguard | /LYF-gard/ | The lifeguard watches swimmers at the pool. | Fingerspell or sign each word | ___________ |
 | 15 | Security guard | /sih-KYOOR-ih-tee GARD/ | A security guard monitors the building entrance. | Fingerspell or sign each word | ___________ |
-| 16 | Social worker | /SOH-shul WUR-ker/ | A social worker connects families with community resources. | Fingerspell or sign each word | ___________ |
-| 17 | School nurse | /SKOOL NURS/ | The school nurse checks on sick children during the day. | Fingerspell or sign each word | ___________ |
-| 18 | EMT | /EE-EM-TEE/ | An EMT provides emergency medical care in the ambulance. | Fingerspell EMT | ___________ |
-| 19 | Sanitation worker | /san-ih-TAY-shun WUR-ker/ | The sanitation worker keeps streets and parks clean. | Fingerspell or sign each word | ___________ |
-| 20 | Animal control | /AN-ih-mul kun-TROHL/ | Animal control officers rescue stray and injured animals. | Fingerspell or sign each word | ___________ |
-| 21 | Park ranger | /PARK RAYN-jer/ | The park ranger protects wildlife and helps visitors. | Fingerspell or sign each word | ___________ |
-| 22 | Meter reader | /MEE-ter REE-der/ | The meter reader checks utility meters each month. | Fingerspell or sign each word | ___________ |
-| 23 | Bus driver | /BUS DRY-ver/ | The bus driver safely carries passengers on the route. | Fingerspell or sign each word | ___________ |
-| 24 | Volunteer | /vol-un-TEER/ | A volunteer gives time to help others without pay. | Fingerspell or sign each word | ___________ |
-| 25 | Public servant | /PUB-lik SUR-vunt/ | A public servant works for the government to help people. | Fingerspell or sign each word | ___________ |
 
 > **🤝 Ezra's Tip:** *"Community helpers are everywhere! Next time you see one, say: 'Thank you!' in English. 'Thank you, Officer. Thank you, Mail Carrier. Thank you, Librarian.' Gratitude is a language that everyone speaks."*
 
@@ -328,7 +312,7 @@
 
 ## Scene 10: Rights & Responsibilities
 
-*In the Sophia Town Hall, Athena leads a workshop on what it means to be a responsible citizen.*
+*In the Luminosity Town Hall, Athena leads a workshop on what it means to be a responsible citizen.*
 
 | # | Word | Phonetic | In the Story… | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -347,16 +331,6 @@
 | 13 | Tolerance | /TOL-er-uns/ | Tolerance means accepting people who are different from you. | Fingerspell or sign each word | ___________ |
 | 14 | Diversity | /dih-VUR-sih-tee/ | Diversity means having people of many backgrounds together. | Fingerspell or sign each word | ___________ |
 | 15 | Inclusion | /in-KLOO-zhun/ | Inclusion means making sure everyone feels welcome. | Fingerspell or sign each word | ___________ |
-| 16 | Compassion | /kum-PASH-un/ | Compassion means caring about the suffering of others. | Fingerspell or sign each word | ___________ |
-| 17 | Integrity | /in-TEG-rih-tee/ | Integrity means doing the right thing even when no one is watching. | Fingerspell or sign each word | ___________ |
-| 18 | Empathy | /EM-puh-thee/ | Empathy means understanding how another person feels. | Fingerspell or sign each word | ___________ |
-| 19 | Accountability | /uh-kown-tuh-BIL-ih-tee/ | Accountability means being responsible for your actions. | Fingerspell or sign each word | ___________ |
-| 20 | Privacy | /PRY-vuh-see/ | Privacy is the right to keep personal information safe. | Fingerspell or sign each word | ___________ |
-| 21 | Consent | /kun-SENT/ | Consent means giving permission before something happens. | Fingerspell or sign each word | ___________ |
-| 22 | Advocate | /AD-voh-kayt/ | An advocate speaks up for people who need help. | Fingerspell or sign each word | ___________ |
-| 23 | Equity | /EK-wih-tee/ | Equity means giving everyone what they need to succeed. | Fingerspell or sign each word | ___________ |
-| 24 | Community service | /kuh-MYOO-nih-tee SUR-vis/ | Community service means volunteering to improve your neighborhood. | Fingerspell or sign each word | ___________ |
-| 25 | Civic engagement | /SIV-ik en-GAYJ-ment/ | Civic engagement means taking part in your community's decisions. | Fingerspell or sign each word | ___________ |
 
 > **🌍 Athena's Tip:** *"Big words, big ideas! Say: 'I believe in EQUALITY. I practice TOLERANCE. I value DIVERSITY.' These words describe the world we want to build — together."*
 
@@ -364,7 +338,7 @@
 
 ## Scene 11: Forms & Documents
 
-*Living in Sophia means knowing your paperwork. Ezra and Athena practice filling out the forms that matter most.*
+*Living in Luminosity means knowing your paperwork. Ezra and Athena practice filling out the forms that matter most.*
 
 | # | Word | Phonetic | In the Story… | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -395,7 +369,7 @@
 
 ## Scene 12: Housing & Renting
 
-*Finding a place to live in Sophia means learning the language of landlords, leases, and home life.*
+*Finding a place to live in Luminosity means learning the language of landlords, leases, and home life.*
 
 | # | Word | Phonetic | In the Story… | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -426,7 +400,7 @@
 
 ## Scene 13: Childcare & Parenting
 
-*In Sophia, parents and caregivers learn the vocabulary of raising children — from infancy to school age.*
+*In Luminosity, parents and caregivers learn the vocabulary of raising children — from infancy to school age.*
 
 | # | Word | Phonetic | In the Story… | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -457,7 +431,7 @@
 
 ## Scene 14: Legal & Court Terms
 
-*Ezra and Athena visit the Sophia Courthouse to learn the vocabulary of justice, rights, and the legal system.*
+*Ezra and Athena visit the Luminosity Courthouse to learn the vocabulary of justice, rights, and the legal system.*
 
 | # | Word | Phonetic | In the Story… | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -489,7 +463,7 @@
 
 ## Scene 15: Job Interview Skills
 
-*At the Sophia Career Center, Dara practices for the big interview*
+*At the Luminosity Career Center, Ezra practices for the big interview*
 
 | # | Word | Phonetic | In the Story... | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -519,13 +493,13 @@
 | 24 | Accept | /ak-SEPT/ | He decided to accept the position. | Fingerspell ACCEPT | ___________ |
 | 25 | Decline | /dih-KLYN/ | She had to decline the offer. | Fingerspell or sign each word | ___________ |
 
-> **💼 Dara's Tip:** *"Practice: TELL ME ABOUT YOURSELF, WHAT ARE YOUR STRENGTHS? Confidence starts with words!"*
+> **💼 Ezra's Tip:** *"Practice: TELL ME ABOUT YOURSELF, WHAT ARE YOUR STRENGTHS? Confidence starts with words!"*
 
 ---
 
 ## Scene 16: Resume & Applications
 
-*Dara builds a winning resume at the Sophia Writing Lab*
+*Athena builds a winning resume at the Luminosity Writing Lab*
 
 | # | Word | Phonetic | In the Story... | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -555,13 +529,13 @@
 | 24 | Summary | /SUM-er-ee/ | Write a brief career summary at the top. | Fingerspell or sign each word | ___________ |
 | 25 | Portfolio | /port-FOH-lee-oh/ | Bring your portfolio to show your work. | Fingerspell or sign each word | ___________ |
 
-> **📄 Dara's Tip:** *"Your resume is your FIRST IMPRESSION. Make every word count!"*
+> **📄 Athena's Tip:** *"Your resume is your FIRST IMPRESSION. Make every word count!"*
 
 ---
 
 ## Scene 17: Banking & Online Services
 
-*At the Sophia Digital Bank, Dara manages money online*
+*At the Luminosity Digital Bank, Ezra manages money online*
 
 | # | Word | Phonetic | In the Story... | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -591,13 +565,13 @@
 | 24 | Fraud | /FROD/ | Report fraud to your bank immediately. | Fingerspell FRAUD | ___________ |
 | 25 | Security | /seh-KYOOR-ih-tee/ | Online security protects your personal information. | Fingerspell or sign each word | ___________ |
 
-> **🏦 Dara's Tip:** *"ACCOUNT, DEPOSIT, TRANSFER — banking English is ESSENTIAL!"*
+> **🏦 Ezra's Tip:** *"ACCOUNT, DEPOSIT, TRANSFER — banking English is ESSENTIAL!"*
 
 ---
 
 ## Scene 18: Taxes & Filing
 
-*At the Sophia Tax Office, Dara learns that taxes support community*
+*At the Luminosity Tax Office, Athena learns that taxes support community*
 
 | # | Word | Phonetic | In the Story... | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -627,13 +601,13 @@
 | 24 | Volunteer tax help | /VOL-un-TEER TAKS HELP/ | Free volunteer tax help is available. | Fingerspell or sign each word | ___________ |
 | 25 | E-file | /EE-fyl/ | E-file your tax return for faster processing. | Fingerspell E-FILE | ___________ |
 
-> **📋 Dara's Tip:** *"TAX, REFUND, W-2, DEDUCTION — these words put money BACK in your pocket!"*
+> **📋 Athena's Tip:** *"TAX, REFUND, W-2, DEDUCTION — these words put money BACK in your pocket!"*
 
 ---
 
 ## Scene 19: Voting & Elections
 
-*At the Sophia Civic Center, Dara exercises the power of the vote*
+*At the Luminosity Civic Center, Athena exercises the power of the vote*
 
 | # | Word | Phonetic | In the Story... | ASL Sign | My Language |
 |---|------|----------|----------------|-------------|----------|
@@ -663,7 +637,7 @@
 | 24 | Democracy | /dih-MOK-ruh-see/ | Democracy means government by the people. | D-hands circle each other | ___________ |
 | 25 | Civic duty | /SIV-ik DOO-tee/ | Voting is a civic duty. | Fingerspell or sign each word | ___________ |
 
-> **🗳 Dara's Tip:** *"VOTE, BALLOT, CANDIDATE — your voice matters! Use it!"*
+> **🗳 Athena's Tip:** *"VOTE, BALLOT, CANDIDATE — your voice matters! Use it!"*
 
 ---
 
@@ -679,8 +653,8 @@
 | Government & Civics | 25 |
 | Money Management & Bills | 20 |
 | School Subjects & Education | 20 |
-| Community Helpers & Services | 25 |
-| Rights & Responsibilities | 25 |
+| Community Helpers & Services | 15 |
+| Rights & Responsibilities | 15 |
 | Forms & Documents | 20 |
 | Housing & Renting | 20 |
 | Childcare & Parenting | 20 |
@@ -690,4 +664,4 @@
 | Banking & Online Services | 25 |
 | Taxes & Filing | 25 |
 | Voting & Elections | 25 |
-| **TOTAL** | **445** |
+| **TOTAL** | **425** |

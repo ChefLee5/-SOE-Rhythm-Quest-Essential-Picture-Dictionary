@@ -6,9 +6,9 @@
     <dc:title>SOE Rhythm Quest: Essential Picture Dictionary</dc:title>
     <dc:creator>The Sound of Essentials</dc:creator>
     <dc:language>en</dc:language>
-    <dc:description>A 2,020-word picture dictionary mapped to the Oxford Picture Dictionary scope, contextualized in the 7 Lands of the SOE Rhythm Quest universe.</dc:description>
+    <dc:description>A 4,162-word picture dictionary mapped to the Oxford Picture Dictionary scope, contextualized in the 7 Lands of the SOE Rhythm Quest universe.</dc:description>
     <dc:rights>© 2026 The Sound of Essentials. All rights reserved.</dc:rights>
-    <meta property="dcterms:modified">2026-03-02T00:00:00Z</meta>
+    <meta property="dcterms:modified">2026-07-06T10:10:10Z</meta>
   </metadata>
 
   <manifest>
@@ -173,6 +173,163 @@
     <item id="back_asl_essential_essential_asl_family_people_25_signs" href="pages/back_asl_essential-essential-asl-family-people-25-signs.xhtml" media-type="application/xhtml+xml"/>
     <item id="back_asl_essential_essential_asl_actions_daily_life_25_signs" href="pages/back_asl_essential-essential-asl-actions-daily-life-25-signs.xhtml" media-type="application/xhtml+xml"/>
     <item id="back_asl_essential_essential_asl_feelings_food_places_25_signs" href="pages/back_asl_essential-essential-asl-feelings-food-places-25-signs.xhtml" media-type="application/xhtml+xml"/>
+    <item id="img_back_action_verbs_body_movement_verbs" href="images/back_action_verbs-body-movement-verbs.jpg" media-type="image/jpeg"/>
+    <item id="img_back_action_verbs_everyday_life_verbs" href="images/back_action_verbs-everyday-life-verbs.jpg" media-type="image/jpeg"/>
+    <item id="img_back_adjectives_feelings_colors_qualities" href="images/back_adjectives-feelings-colors-qualities.jpg" media-type="image/jpeg"/>
+    <item id="img_back_adjectives_opposite_pairs" href="images/back_adjectives-opposite-pairs.jpg" media-type="image/jpeg"/>
+    <item id="img_back_asl_alphabet_asl_alphabet_am" href="images/back_asl_alphabet-asl-alphabet-am.jpg" media-type="image/jpeg"/>
+    <item id="img_back_asl_alphabet_asl_alphabet_nz" href="images/back_asl_alphabet-asl-alphabet-nz.jpg" media-type="image/jpeg"/>
+    <item id="img_back_asl_alphabet_asl_numbers_010" href="images/back_asl_alphabet-asl-numbers-010.jpg" media-type="image/jpeg"/>
+    <item id="img_back_asl_essential_essential_asl_actions_daily_life_25_signs" href="images/back_asl_essential-essential-asl-actions-daily-life-25-signs.jpg" media-type="image/jpeg"/>
+    <item id="img_back_asl_essential_essential_asl_family_people_25_signs" href="images/back_asl_essential-essential-asl-family-people-25-signs.jpg" media-type="image/jpeg"/>
+    <item id="img_back_asl_essential_essential_asl_feelings_food_places_25_signs" href="images/back_asl_essential-essential-asl-feelings-food-places-25-signs.jpg" media-type="image/jpeg"/>
+    <item id="img_back_asl_essential_essential_asl_greetings_social_25_signs" href="images/back_asl_essential-essential-asl-greetings-social-25-signs.jpg" media-type="image/jpeg"/>
+    <item id="img_back_az_index_ac_words_across_all_lands" href="images/back_az_index-ac-words-across-all-lands.jpg" media-type="image/jpeg"/>
+    <item id="img_back_az_index_dk_words_across_all_lands" href="images/back_az_index-dk-words-across-all-lands.jpg" media-type="image/jpeg"/>
+    <item id="img_back_az_index_lr_words_across_all_lands" href="images/back_az_index-lr-words-across-all-lands.jpg" media-type="image/jpeg"/>
+    <item id="img_back_az_index_sz_words_across_all_lands" href="images/back_az_index-sz-words-across-all-lands.jpg" media-type="image/jpeg"/>
+    <item id="img_back_parent_teacher_classroom_language_commands" href="images/back_parent_teacher-classroom-language-commands.jpg" media-type="image/jpeg"/>
+    <item id="img_back_parent_teacher_parent_engagement_vocabulary" href="images/back_parent_teacher-parent-engagement-vocabulary.jpg" media-type="image/jpeg"/>
+    <item id="img_back_parent_teacher_study_skills_learning_strategies" href="images/back_parent_teacher-study-skills-learning-strategies.jpg" media-type="image/jpeg"/>
+    <item id="img_back_sight_words_essential_sight_words_group_a" href="images/back_sight_words-essential-sight-words-group-a.jpg" media-type="image/jpeg"/>
+    <item id="img_back_sight_words_essential_sight_words_group_b" href="images/back_sight_words-essential-sight-words-group-b.jpg" media-type="image/jpeg"/>
+    <item id="img_back_sight_words_essential_sight_words_group_c" href="images/back_sight_words-essential-sight-words-group-c.jpg" media-type="image/jpeg"/>
+    <item id="img_back_visual_glossary_around_the_house_visual_vocabulary" href="images/back_visual_glossary-around-the-house-visual-vocabulary.jpg" media-type="image/jpeg"/>
+    <item id="img_back_visual_glossary_at_the_doctor_visual_vocabulary" href="images/back_visual_glossary-at-the-doctor-visual-vocabulary.jpg" media-type="image/jpeg"/>
+    <item id="img_back_visual_glossary_at_the_store_visual_vocabulary" href="images/back_visual_glossary-at-the-store-visual-vocabulary.jpg" media-type="image/jpeg"/>
+    <item id="img_back_visual_glossary_on_the_street_visual_vocabulary" href="images/back_visual_glossary-on-the-street-visual-vocabulary.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_body_language_gestures" href="images/land1-body-language-gestures.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_celebrations_traditions" href="images/land1-celebrations-traditions.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_clothing_getting_dressed" href="images/land1-clothing-getting-dressed.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_colors_patterns" href="images/land1-colors-patterns.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_communication_technology" href="images/land1-communication-technology.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_daily_routines" href="images/land1-daily-routines.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_days_months_numbers" href="images/land1-days-months-numbers.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_emotions_feelings" href="images/land1-emotions-feelings.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_family_relationships" href="images/land1-family-relationships.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_greetings_introductions" href="images/land1-greetings-introductions.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_hobbies_recreation" href="images/land1-hobbies-recreation.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_manners_politeness" href="images/land1-manners-politeness.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_music_instruments" href="images/land1-music-instruments.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_personal_information" href="images/land1-personal-information.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_pets_at_home" href="images/land1-pets-at-home.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_school_events_activities" href="images/land1-school-events-activities.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_the_classroom" href="images/land1-the-classroom.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_the_home" href="images/land1-the-home.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_the_neighborhood" href="images/land1-the-neighborhood.jpg" media-type="image/jpeg"/>
+    <item id="img_land1_the_playground_recess" href="images/land1-the-playground-recess.jpg" media-type="image/jpeg"/>
+    <item id="img_land2_basic_math_operations" href="images/land2-basic-math-operations.jpg" media-type="image/jpeg"/>
+    <item id="img_land2_budget_savings" href="images/land2-budget-savings.jpg" media-type="image/jpeg"/>
+    <item id="img_land2_calendar_math" href="images/land2-calendar-math.jpg" media-type="image/jpeg"/>
+    <item id="img_land2_charts_graphs" href="images/land2-charts-graphs.jpg" media-type="image/jpeg"/>
+    <item id="img_land2_cooking_measurements" href="images/land2-cooking-measurements.jpg" media-type="image/jpeg"/>
+    <item id="img_land2_data_statistics" href="images/land2-data-statistics.jpg" media-type="image/jpeg"/>
+    <item id="img_land2_distance_speed" href="images/land2-distance-speed.jpg" media-type="image/jpeg"/>
+    <item id="img_land2_estimation_comparison" href="images/land2-estimation-comparison.jpg" media-type="image/jpeg"/>
+    <item id="img_land2_fractions_decimals" href="images/land2-fractions-decimals.jpg" media-type="image/jpeg"/>
+    <item id="img_land2_measurement_at_home" href="images/land2-measurement-at-home.jpg" media-type="image/jpeg"/>
+    <item id="img_land2_money_currency" href="images/land2-money-currency.jpg" media-type="image/jpeg"/>
+    <item id="img_land2_numbers_counting" href="images/land2-numbers-counting.jpg" media-type="image/jpeg"/>
+    <item id="img_land2_patterns_sequences" href="images/land2-patterns-sequences.jpg" media-type="image/jpeg"/>
+    <item id="img_land2_problem_solving_logic" href="images/land2-problem-solving-logic.jpg" media-type="image/jpeg"/>
+    <item id="img_land2_shapes_geometry" href="images/land2-shapes-geometry.jpg" media-type="image/jpeg"/>
+    <item id="img_land2_the_bank" href="images/land2-the-bank.jpg" media-type="image/jpeg"/>
+    <item id="img_land2_the_grocery_store_shopping" href="images/land2-the-grocery-store-shopping.jpg" media-type="image/jpeg"/>
+    <item id="img_land2_time_clocks" href="images/land2-time-clocks.jpg" media-type="image/jpeg"/>
+    <item id="img_land2_weights_measures" href="images/land2-weights-measures.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_camping_hiking" href="images/land3-camping-hiking.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_desert_dry_lands" href="images/land3-desert-dry-lands.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_farm_to_table" href="images/land3-farm-to-table.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_fruits_vegetables" href="images/land3-fruits-vegetables.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_insects_bugs" href="images/land3-insects-bugs.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_inside_the_home" href="images/land3-inside-the-home.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_pets_companions" href="images/land3-pets-companions.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_recycling_sustainability" href="images/land3-recycling-sustainability.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_rivers_lakes" href="images/land3-rivers-lakes.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_rocks_minerals" href="images/land3-rocks-minerals.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_seeds_growing" href="images/land3-seeds-growing.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_shapes_in_the_world" href="images/land3-shapes-in-the-world.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_silas_vestas_cottage_outside" href="images/land3-silas-vestas-cottage-outside.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_the_barnyard" href="images/land3-the-barnyard.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_the_environment" href="images/land3-the-environment.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_the_garden" href="images/land3-the-garden.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_the_ocean_beach" href="images/land3-the-ocean-beach.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_trees_the_forest" href="images/land3-trees-the-forest.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_weather_seasons" href="images/land3-weather-seasons.jpg" media-type="image/jpeg"/>
+    <item id="img_land3_wild_animals" href="images/land3-wild-animals.jpg" media-type="image/jpeg"/>
+    <item id="img_land4_bicycle_walking" href="images/land4-bicycle-walking.jpg" media-type="image/jpeg"/>
+    <item id="img_land4_community_places" href="images/land4-community-places.jpg" media-type="image/jpeg"/>
+    <item id="img_land4_directions_navigation" href="images/land4-directions-navigation.jpg" media-type="image/jpeg"/>
+    <item id="img_land4_emergency_services" href="images/land4-emergency-services.jpg" media-type="image/jpeg"/>
+    <item id="img_land4_freshwater_life" href="images/land4-freshwater-life.jpg" media-type="image/jpeg"/>
+    <item id="img_land4_geography_landforms" href="images/land4-geography-landforms.jpg" media-type="image/jpeg"/>
+    <item id="img_land4_hotels_lodging" href="images/land4-hotels-lodging.jpg" media-type="image/jpeg"/>
+    <item id="img_land4_mail_postal_services" href="images/land4-mail-postal-services.jpg" media-type="image/jpeg"/>
+    <item id="img_land4_map_reading_gps" href="images/land4-map-reading-gps.jpg" media-type="image/jpeg"/>
+    <item id="img_land4_public_transportation" href="images/land4-public-transportation.jpg" media-type="image/jpeg"/>
+    <item id="img_land4_restaurants_dining" href="images/land4-restaurants-dining.jpg" media-type="image/jpeg"/>
+    <item id="img_land4_road_signs_safety" href="images/land4-road-signs-safety.jpg" media-type="image/jpeg"/>
+    <item id="img_land4_seasons_nature_cycles" href="images/land4-seasons-nature-cycles.jpg" media-type="image/jpeg"/>
+    <item id="img_land4_the_airport_travel" href="images/land4-the-airport-travel.jpg" media-type="image/jpeg"/>
+    <item id="img_land4_the_ocean_marine_life" href="images/land4-the-ocean-marine-life.jpg" media-type="image/jpeg"/>
+    <item id="img_land4_transportation" href="images/land4-transportation.jpg" media-type="image/jpeg"/>
+    <item id="img_land4_travel_documents" href="images/land4-travel-documents.jpg" media-type="image/jpeg"/>
+    <item id="img_land4_tricky_english_words" href="images/land4-tricky-english-words.jpg" media-type="image/jpeg"/>
+    <item id="img_land4_weather_climate" href="images/land4-weather-climate.jpg" media-type="image/jpeg"/>
+    <item id="img_land5_exercise_movement" href="images/land5-exercise-movement.jpg" media-type="image/jpeg"/>
+    <item id="img_land5_eye_care_vision" href="images/land5-eye-care-vision.jpg" media-type="image/jpeg"/>
+    <item id="img_land5_first_aid_injuries" href="images/land5-first-aid-injuries.jpg" media-type="image/jpeg"/>
+    <item id="img_land5_healthy_habits_hygiene" href="images/land5-healthy-habits-hygiene.jpg" media-type="image/jpeg"/>
+    <item id="img_land5_inside_the_body" href="images/land5-inside-the-body.jpg" media-type="image/jpeg"/>
+    <item id="img_land5_meal_time" href="images/land5-meal-time.jpg" media-type="image/jpeg"/>
+    <item id="img_land5_mental_health_emotions" href="images/land5-mental-health-emotions.jpg" media-type="image/jpeg"/>
+    <item id="img_land5_nutrition_food_groups" href="images/land5-nutrition-food-groups.jpg" media-type="image/jpeg"/>
+    <item id="img_land5_personal_care_products" href="images/land5-personal-care-products.jpg" media-type="image/jpeg"/>
+    <item id="img_land5_sleep_rest" href="images/land5-sleep-rest.jpg" media-type="image/jpeg"/>
+    <item id="img_land5_sports_fitness" href="images/land5-sports-fitness.jpg" media-type="image/jpeg"/>
+    <item id="img_land5_the_dentist" href="images/land5-the-dentist.jpg" media-type="image/jpeg"/>
+    <item id="img_land5_the_doctors_office" href="images/land5-the-doctors-office.jpg" media-type="image/jpeg"/>
+    <item id="img_land5_the_human_body" href="images/land5-the-human-body.jpg" media-type="image/jpeg"/>
+    <item id="img_land5_the_kitchen" href="images/land5-the-kitchen.jpg" media-type="image/jpeg"/>
+    <item id="img_land5_the_pharmacy" href="images/land5-the-pharmacy.jpg" media-type="image/jpeg"/>
+    <item id="img_land5_the_produce_market" href="images/land5-the-produce-market.jpg" media-type="image/jpeg"/>
+    <item id="img_land6_banking_online_services" href="images/land6-banking-online-services.jpg" media-type="image/jpeg"/>
+    <item id="img_land6_childcare_parenting" href="images/land6-childcare-parenting.jpg" media-type="image/jpeg"/>
+    <item id="img_land6_community_helpers_services" href="images/land6-community-helpers-services.jpg" media-type="image/jpeg"/>
+    <item id="img_land6_forms_documents" href="images/land6-forms-documents.jpg" media-type="image/jpeg"/>
+    <item id="img_land6_government_civics" href="images/land6-government-civics.jpg" media-type="image/jpeg"/>
+    <item id="img_land6_housing_renting" href="images/land6-housing-renting.jpg" media-type="image/jpeg"/>
+    <item id="img_land6_job_interview_skills" href="images/land6-job-interview-skills.jpg" media-type="image/jpeg"/>
+    <item id="img_land6_legal_court_terms" href="images/land6-legal-court-terms.jpg" media-type="image/jpeg"/>
+    <item id="img_land6_money_management_bills" href="images/land6-money-management-bills.jpg" media-type="image/jpeg"/>
+    <item id="img_land6_occupations_careers" href="images/land6-occupations-careers.jpg" media-type="image/jpeg"/>
+    <item id="img_land6_resume_applications" href="images/land6-resume-applications.jpg" media-type="image/jpeg"/>
+    <item id="img_land6_rights_responsibilities" href="images/land6-rights-responsibilities.jpg" media-type="image/jpeg"/>
+    <item id="img_land6_safety_emergencies" href="images/land6-safety-emergencies.jpg" media-type="image/jpeg"/>
+    <item id="img_land6_school_subjects_education" href="images/land6-school-subjects-education.jpg" media-type="image/jpeg"/>
+    <item id="img_land6_taxes_filing" href="images/land6-taxes-filing.jpg" media-type="image/jpeg"/>
+    <item id="img_land6_the_workplace" href="images/land6-the-workplace.jpg" media-type="image/jpeg"/>
+    <item id="img_land6_tools_construction" href="images/land6-tools-construction.jpg" media-type="image/jpeg"/>
+    <item id="img_land6_types_of_workers" href="images/land6-types-of-workers.jpg" media-type="image/jpeg"/>
+    <item id="img_land6_voting_elections" href="images/land6-voting-elections.jpg" media-type="image/jpeg"/>
+    <item id="img_land7_ages_life_stages" href="images/land7-ages-life-stages.jpg" media-type="image/jpeg"/>
+    <item id="img_land7_digital_time_screens" href="images/land7-digital-time-screens.jpg" media-type="image/jpeg"/>
+    <item id="img_land7_energy_forces" href="images/land7-energy-forces.jpg" media-type="image/jpeg"/>
+    <item id="img_land7_environment_sustainability" href="images/land7-environment-sustainability.jpg" media-type="image/jpeg"/>
+    <item id="img_land7_historical_timekeeping" href="images/land7-historical-timekeeping.jpg" media-type="image/jpeg"/>
+    <item id="img_land7_holidays_celebrations_calendar" href="images/land7-holidays-celebrations-calendar.jpg" media-type="image/jpeg"/>
+    <item id="img_land7_inventions_discoveries" href="images/land7-inventions-discoveries.jpg" media-type="image/jpeg"/>
+    <item id="img_land7_planet_earth" href="images/land7-planet-earth.jpg" media-type="image/jpeg"/>
+    <item id="img_land7_school_schedules_timetables" href="images/land7-school-schedules-timetables.jpg" media-type="image/jpeg"/>
+    <item id="img_land7_seasons_time_in_nature" href="images/land7-seasons-time-in-nature.jpg" media-type="image/jpeg"/>
+    <item id="img_land7_telling_time_clocks" href="images/land7-telling-time-clocks.jpg" media-type="image/jpeg"/>
+    <item id="img_land7_the_calendar_cycles" href="images/land7-the-calendar-cycles.jpg" media-type="image/jpeg"/>
+    <item id="img_land7_the_future_dreams" href="images/land7-the-future-dreams.jpg" media-type="image/jpeg"/>
+    <item id="img_land7_the_scientific_method" href="images/land7-the-scientific-method.jpg" media-type="image/jpeg"/>
+    <item id="img_land7_the_solar_system" href="images/land7-the-solar-system.jpg" media-type="image/jpeg"/>
+    <item id="img_land7_the_water_cycle_weather_systems" href="images/land7-the-water-cycle-weather-systems.jpg" media-type="image/jpeg"/>
+    <item id="img_land7_time_concepts_history" href="images/land7-time-concepts-history.jpg" media-type="image/jpeg"/>
+    <item id="img_land7_time_in_music_rhythm" href="images/land7-time-in-music-rhythm.jpg" media-type="image/jpeg"/>
   </manifest>
 
   <spine>

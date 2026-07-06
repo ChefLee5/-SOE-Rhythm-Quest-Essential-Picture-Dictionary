@@ -42,16 +42,22 @@ STATIC_PAGES = ["cover.xhtml", "frontmatter.xhtml"]
 
 
 def get_all_pages():
-    """Discover all land*.xhtml pages and sort them in land/scene order."""
-    pages = []
+    """Discover all land*.xhtml and back_*.xhtml pages and sort them properly."""
+    land_pages = []
+    back_pages = []
     for f in PAGES_DIR.glob("land*.xhtml"):
-        pages.append(f.name)
-    # Sort by land number then alphabetically within each land
-    def sort_key(name):
+        land_pages.append(f.name)
+    for f in PAGES_DIR.glob("back_*.xhtml"):
+        back_pages.append(f.name)
+    # Sort land pages by land number then alphabetically within each land
+    def land_sort_key(name):
         match = re.match(r'land(\d+)-', name)
         land_num = int(match.group(1)) if match else 99
         return (land_num, name)
-    return sorted(pages, key=sort_key)
+    land_pages = sorted(land_pages, key=land_sort_key)
+    # Sort back matter pages alphabetically
+    back_pages = sorted(back_pages)
+    return land_pages + back_pages
 
 
 def build_epub():
@@ -173,76 +179,41 @@ def count_vocabulary():
 
 PAGINATION_STRATEGY = """
 ═══════════════════════════════════════════════════════════════
- PAGINATION STRATEGY: Generating the Full 4,000+ Word Dictionary
+ PAGINATION STRATEGY: 4,162-Word Picture Dictionary — COMPLETE
 ═══════════════════════════════════════════════════════════════
 
- Current State (Phase 1):
-   ✅ Land 3 (Terrasol): 340 words across 10 sub-scenes
-   ✅ Land 5 (Vitalis):  355 words across 10 sub-scenes
-   📊 Total: 695 words
-
- To reach 4,000+ words, generate the remaining 5 Lands:
+ Current State: ALL CONTENT COMPLETE ✅
 
  ┌──────────────────────┬─────────────┬─────────────────────┐
- │ Land                 │ Target Words│ Status              │
+ │ Land                 │ Word Count  │ Status              │
  ├──────────────────────┼─────────────┼─────────────────────┤
- │ 1. Harmonia          │ ~600        │ ⏳ Pending          │
- │ 2. Numeria           │ ~500        │ ⏳ Pending          │
- │ 3. Terrasol          │ ~340        │ ✅ Complete         │
- │ 4. Aquaria           │ ~550        │ ⏳ Pending          │
- │ 5. Vitalis           │ ~355        │ ✅ Complete         │
- │ 6. Sophia            │ ~500        │ ⏳ Pending          │
- │ 7. Celestia          │ ~500        │ ⏳ Pending          │
+ │ 1. Harmonia          │ 620         │ ✅ Complete         │
+ │ 2. Numeria           │ 510         │ ✅ Complete         │
+ │ 3. Terrasol          │ 585         │ ✅ Complete         │
+ │ 4. Aquaria           │ 485         │ ✅ Complete         │
+ │ 5. Vitalis           │ 520         │ ✅ Complete         │
+ │ 6. Luminosity        │ 425         │ ✅ Complete         │
+ │ 7. Celestia          │ 390         │ ✅ Complete         │
  ├──────────────────────┼─────────────┼─────────────────────┤
- │ Back Matter          │ ~400        │ ⏳ Pending          │
- │ (Index, Glossary)    │             │                     │
+ │ Sight Words          │ 90          │ ✅ Complete         │
+ │ Action Verbs         │ 50          │ ✅ Complete         │
+ │ Adjectives           │ 50          │ ✅ Complete         │
+ │ A–Z Word Index       │ 120         │ ✅ Complete         │
+ │ Visual Glossary      │ 100         │ ✅ Complete         │
+ │ Parent & Teacher     │ 80          │ ✅ Complete         │
+ │ ASL Alphabet         │ 37          │ ✅ Complete         │
+ │ 100 Essential ASL    │ 100         │ ✅ Complete         │
  ├──────────────────────┼─────────────┼─────────────────────┤
- │ TOTAL                │ ~4,045      │                     │
+ │ TOTAL                │ 4,162       │ ✅ COMPLETE         │
  └──────────────────────┴─────────────┴─────────────────────┘
 
- ═══ STEP-BY-STEP GENERATION WORKFLOW ═══
+ ═══ BUILD WORKFLOW ═══
 
- For each remaining Land, follow this process:
+ 1. Generate XHTML pages from Markdown:
+      python generate_pages.py
 
- 1. CREATE MARKDOWN CONTENT
-    Write a new file: content/land{N}_{name}.md
-    Follow the established format:
-      - Land header with characters and OPD themes
-      - 8-12 sub-scenes per land
-      - 25-50 words per sub-scene
-      - Each word: # | Word | /Phonetic/ | Sentence Context | My Language
-
- 2. GENERATE XHTML PAGES
-    For each sub-scene, create: OEBPS/pages/land{N}-{scene-slug}.xhtml
-    Copy the template from land3-barnyard.xhtml and update:
-      - --accent-color in <style> to match the Land
-      - Land header (number, name, icon, characters)
-      - Scene header (title, description)
-      - Illustration placeholder description
-      - Vocabulary table rows
-      - Character tip at the bottom
-
- 3. UPDATE content.opf
-    Add new <item> entries to the <manifest>
-    Add new <itemref> entries to the <spine>
-
- 4. UPDATE nav.xhtml
-    Add new navigation entries for each Land and sub-scene
-
- 5. REBUILD
-    Run: python build_epub.py
-
- ═══ ALTERNATIVE: Pandoc Pipeline ═══
-
- If you prefer to convert Markdown → EPUB directly:
-
-   pandoc content/land*.md \\
-     --css=OEBPS/styles/dictionary.css \\
-     --toc \\
-     --toc-depth=2 \\
-     --metadata title="SOE Rhythm Quest: Essential Picture Dictionary" \\
-     --epub-chapter-level=2 \\
-     -o SOE_Essential_Picture_Dictionary.epub
+ 2. Build EPUB:
+      python build_epub.py
 
  ═══ CONVERTING EPUB → PDF ═══
 

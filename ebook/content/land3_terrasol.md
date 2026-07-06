@@ -308,18 +308,8 @@
 | 23 | Drainpipe | /DRAYN-pyp/ | The drainpipe runs down the side of the house. | Fingerspell or sign each word | ___________ |
 | 24 | Doorbell | /DOR-bel/ | Press the doorbell and wait for someone to answer. | Fingerspell or sign each word | ___________ |
 | 25 | Welcome mat | /WEL-kum MAT/ | The welcome mat says "Home Sweet Home." | Fingerspell or sign each word | ___________ |
-| 26 | Brick | /BRIK/ | The cottage walls are made of sturdy red brick. | Fingerspell BRICK | ___________ |
-| 27 | Gable | /GAY-bul/ | The pointed gable makes the roof look tall. | Fingerspell GABLE | ___________ |
-| 28 | Pathway | /PATH-way/ | The stone pathway leads to the back garden. | Fingerspell or sign each word | ___________ |
-| 29 | Rain barrel | /RAYN BAIR-ul/ | The rain barrel collects water from the roof. | Fingerspell or sign each word | ___________ |
-| 30 | Planter | /PLAN-ter/ | Colorful flowers bloom in the porch planter. | Fingerspell or sign each word | ___________ |
-| 31 | Lantern | /LAN-tern/ | The lantern glows beside the front door at night. | Fingerspell LANTERN | ___________ |
-| 32 | Trellis | /TREL-is/ | Vines climb the wooden trellis beside the window. | Fingerspell or sign each word | ___________ |
-| 33 | Weathervane | /WETH-er-vayn/ | The weathervane on the roof points north today. | Fingerspell or sign each word | ___________ |
-| 34 | Birdbath | /BURD-bath/ | Birds splash in the stone birdbath. | Fingerspell or sign each word | ___________ |
-| 35 | Threshold | /THRESH-ohld/ | Step over the threshold and come inside. | Fingerspell or sign each word | ___________ |
 
-> **🏠 Silas's Tip:** *"Stand outside YOUR home. Can you name 10 things you see? ROOF, DOOR, WINDOW, STEPS — every building is full of vocabulary!"*
+> **🏡 Silas's Tip:** *"Look at your own home! Can you find the ROOF, the DOOR, the WINDOW? Say each part out loud: 'This is my ___.' Now draw your home and label three parts in English!"*
 
 ---
 
@@ -605,11 +595,6 @@
 | 18 | Erosion | /ih-ROH-zhun/ | Erosion is when wind or water wears away rock. | Fingerspell or sign each word | ___________ |
 | 19 | Sediment | /SED-ih-ment/ | Layers of sediment build up on the river bottom. | Fingerspell or sign each word | ___________ |
 | 20 | Stalactite | /stuh-LAK-tyt/ | A stalactite hangs down from the ceiling of the cave. | Fingerspell or sign each word | ___________ |
-| 21 | Stalagmite | /stuh-LAG-myt/ | A stalagmite grows up from the floor of the cave. | Fingerspell or sign each word | ___________ |
-| 22 | Geode | /JEE-ohd/ | Crack open a geode to find crystals inside. | Fingerspell GEODE | ___________ |
-| 23 | Obsidian | /ob-SID-ee-un/ | Obsidian is a shiny black volcanic glass. | Fingerspell or sign each word | ___________ |
-| 24 | Slate | /SLAYT/ | Slate is a flat gray rock used for roof tiles. | Fingerspell SLATE | ___________ |
-| 25 | Sandstone | /SAND-stohn/ | The canyon walls are carved from red sandstone. | Fingerspell or sign each word | ___________ |
 
 > **💎 Vesta's Tip:** *"Collect rocks from your yard or a park. Describe each one: Is it SMOOTH or ROUGH? Is it DARK or LIGHT? Is it HEAVY or LIGHT? Science starts with observation!"*
 
@@ -641,11 +626,6 @@
 | 18 | Aluminum | /uh-LOO-mih-num/ | Aluminum cans are easy to recycle. | Fingerspell or sign each word | ___________ |
 | 19 | Conserve | /kun-SURV/ | Conserve water by turning off the faucet. | Fingerspell or sign each word | ___________ |
 | 20 | Protect | /proh-TEKT/ | It is our job to protect the environment. | Fingerspell or sign each word | ___________ |
-| 21 | Ecosystem | /EE-koh-sis-tem/ | Every plant and animal is part of an ecosystem. | Fingerspell or sign each word | ___________ |
-| 22 | Biodegradable | /by-oh-dee-GRAY-duh-bul/ | Biodegradable materials break down naturally over time. | Fingerspell or sign each word | ___________ |
-| 23 | Emissions | /ee-MISH-unz/ | Cars and factories produce harmful emissions. | Fingerspell or sign each word | ___________ |
-| 24 | Habitat | /HAB-ih-tat/ | Protect the habitat so animals have safe homes. | Fingerspell or sign each word | ___________ |
-| 25 | Volunteer | /vol-un-TEER/ | Volunteer to help clean up the park. | Fingerspell or sign each word | ___________ |
 
 > **♻️ Silas's Tip:** *"Here are three words to remember forever: REDUCE, REUSE, RECYCLE. Say them every day. Practice them every day. The earth will thank you!"*
 
@@ -843,18 +823,18 @@
 | The Garden | 35 |
 | Trees & the Forest | 30 |
 | The Environment | 30 |
-| The Cottage (Outside) | 35 |
+| The Cottage (Outside) | 25 |
 | Inside the Home | 45 |
 | Shapes in the World | 30 |
 | Farm to Table | 35 |
 | Insects & Bugs | 25 |
 | Fruits & Vegetables | 30 |
 | Weather & Seasons | 25 |
-| Rocks & Minerals | 25 |
-| Recycling & Sustainability | 25 |
+| Rocks & Minerals | 20 |
+| Recycling & Sustainability | 20 |
 | The Ocean & Beach | 25 |
 | Desert & Dry Lands | 25 |
 | Rivers & Lakes | 25 |
 | Camping & Hiking | 25 |
 | Seeds & Growing | 25 |
-| **TOTAL** | **605** |
+| **TOTAL** | **585** |

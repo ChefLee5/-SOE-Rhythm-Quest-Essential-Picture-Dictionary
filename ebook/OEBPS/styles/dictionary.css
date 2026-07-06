@@ -1,46 +1,13 @@
 /* ═══════════════════════════════════════════════════════════════
  * SOE RHYTHM QUEST: ESSENTIAL PICTURE DICTIONARY
- * Core Stylesheet — Phase 4: Warm Storybook Design System
+ * Core Stylesheet — Neuro-Affirming Design System
  * ═══════════════════════════════════════════════════════════════
- * Aesthetic: Playful Storybook / Warm Educational
- * Typography: Fredoka One (display) + Nunito (body)
- * Color: Land-specific warm palettes with depth hierarchy
+ * Design Principles:
+ *   • Calm. Focused. Essential.
+ *   • Generous whitespace for cognitive ease
+ *   • High contrast (WCAG AA) for all text
+ *   • Print-referencing layout for shared reading
  * ═══════════════════════════════════════════════════════════════ */
-
-
-/* ── Embedded Fonts ── */
-@font-face {
-    font-family: 'Fredoka One';
-    src: url('../fonts/FredokaOne-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('../fonts/Nunito-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('../fonts/Nunito-SemiBold.woff2') format('woff2');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('../fonts/Nunito-Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
 
 /* ── Reset & Base ── */
 * {
@@ -50,83 +17,59 @@
 }
 
 body {
-    font-family: 'Nunito', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
     font-size: 11pt;
-    line-height: 1.7;
-    color: #2D2319;
-    background: #FFFDF8;
+    line-height: 1.6;
+    color: #1a1a2e;
+    background: #ffffff;
     -webkit-font-smoothing: antialiased;
 }
 
-
-/* ── CSS Custom Properties ── */
+/* ── CSS Custom Properties (Land Accent Colors) ── */
 :root {
-    /* ── Brand Foundation ── */
-    --soe-gold:       #E8A317;
-    --soe-cream:      #FFFDF8;
-    --soe-warm-white: #FFF9F0;
-    --soe-ink:        #2D2319;
-    --soe-ink-soft:   #5C4B3A;
-    --soe-ink-muted:  #8B7A68;
+    /* Brand Colors */
+    --soe-gold: #d4a843;
+    --soe-sage: #7fb685;
+    --soe-terracotta: #c4785a;
+    --soe-plum: #9678c4;
+    --soe-ocean: #5ba4c9;
+    --soe-amber: #d4a843;
+    --soe-forest: #10B981;
 
-    /* ── Land Accent Colors ── */
-    --land1-color:    #E8A317;  /* Harmonia — Warm Gold */
-    --land1-light:    #FFF8E7;
-    --land1-dark:     #B8820E;
+    /* Land-specific accent colors */
+    --land1-color: #d4a843;
+    /* Harmonia */
+    --land2-color: #7fb685;
+    /* Numeria */
+    --land3-color: #10B981;
+    /* Terrasol */
+    --land4-color: #2563EB;
+    /* Aquaria */
+    --land5-color: #c4785a;
+    /* Vitalis */
+    --land6-color: #d4897a;
+    /* Luminosity */
+    --land7-color: #9678c4;
+    /* Celestia */
 
-    --land2-color:    #4CAF7D;  /* Numeria — Forest Green */
-    --land2-light:    #EEFAF2;
-    --land2-dark:     #2E8B57;
-
-    --land3-color:    #10B981;  /* Terrasol — Emerald */
-    --land3-light:    #ECFDF5;
-    --land3-dark:     #059669;
-
-    --land4-color:    #3B82F6;  /* Aquaria — Ocean Blue */
-    --land4-light:    #EFF6FF;
-    --land4-dark:     #1D4ED8;
-
-    --land5-color:    #E07C5A;  /* Vitalis — Terracotta */
-    --land5-light:    #FFF5F0;
-    --land5-dark:     #C65D3D;
-
-    --land6-color:    #38BDF8;  /* Sophia — Sky Blue */
-    --land6-light:    #F0F9FF;
-    --land6-dark:     #0284C7;
-
-    --land7-color:    #A78BFA;  /* Celestia — Amethyst */
-    --land7-light:    #F5F3FF;
-    --land7-dark:     #7C3AED;
-
-    /* ── Dynamic accent (overridden per-page via inline style) ── */
-    --accent-color:   #E8A317;
-    --accent-light:   #FFF8E7;
-    --accent-dark:    #B8820E;
-
-    /* ── Spacing Scale ── */
-    --space-xs:  0.25rem;
-    --space-sm:  0.5rem;
-    --space-md:  1rem;
-    --space-lg:  1.5rem;
-    --space-xl:  2rem;
+    /* Spacing Scale */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
     --space-2xl: 3rem;
 
-    /* ── Typography ── */
-    --font-display: 'Fredoka One', 'Comic Sans MS', 'Trebuchet MS', cursive;
-    --font-body:    'Nunito', 'Segoe UI', system-ui, sans-serif;
+    /* Typography */
+    --font-body: 'Inter', 'Segoe UI', system-ui, sans-serif;
+    --font-heading: 'Inter', 'Segoe UI', system-ui, sans-serif;
 
-    /* ── Borders & Radius ── */
-    --radius-sm:  6px;
-    --radius-md:  10px;
-    --radius-lg:  16px;
-    --radius-xl:  24px;
-    --border-light:  1px solid #E8DDD0;
-    --border-accent: 3px solid var(--accent-color);
-
-    /* ── Shadows ── */
-    --shadow-soft:    0 2px 8px rgba(45, 35, 25, 0.06);
-    --shadow-medium:  0 4px 16px rgba(45, 35, 25, 0.10);
-    --shadow-strong:  0 8px 32px rgba(45, 35, 25, 0.14);
+    /* Borders & Radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --border-light: 1px solid #e5e7eb;
+    --border-accent: 2px solid var(--accent-color, #d4a843);
 }
 
 
@@ -135,36 +78,35 @@ body {
  * ═══════════════════════════════════════════════════ */
 
 h1 {
-    font-family: var(--font-display);
-    font-size: 2.2rem;
-    font-weight: 400; /* Fredoka One is single-weight */
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 700;
     line-height: 1.2;
-    color: var(--soe-ink);
+    color: #0f172a;
     margin-bottom: var(--space-md);
-    letter-spacing: 0.01em;
 }
 
 h2 {
-    font-family: var(--font-display);
+    font-family: var(--font-heading);
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.3;
-    color: var(--soe-ink);
+    color: #1e293b;
     margin-bottom: var(--space-sm);
 }
 
 h3 {
-    font-family: var(--font-body);
+    font-family: var(--font-heading);
     font-size: 1.15rem;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.4;
-    color: var(--soe-ink-soft);
+    color: #334155;
     margin-bottom: var(--space-xs);
 }
 
 p {
     margin-bottom: var(--space-md);
-    color: var(--soe-ink-soft);
+    color: #374151;
 }
 
 
@@ -176,143 +118,120 @@ p {
     text-align: center;
     padding: var(--space-2xl) var(--space-xl);
     page-break-after: always;
-    background: linear-gradient(180deg, var(--soe-cream) 0%, var(--soe-warm-white) 100%);
 }
 
 .cover-page .cover-title {
-    font-family: var(--font-display);
-    font-size: 2.8rem;
-    font-weight: 400;
-    letter-spacing: 0.02em;
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
     margin-bottom: var(--space-sm);
-    color: var(--soe-ink);
-    text-shadow: 0 2px 4px rgba(232, 163, 23, 0.15);
+    color: #0f172a;
 }
 
 .cover-page .cover-subtitle {
-    font-family: var(--font-body);
     font-size: 1.2rem;
-    font-weight: 600;
-    color: var(--soe-ink-muted);
+    font-weight: 400;
+    color: #64748b;
     margin-bottom: var(--space-xl);
 }
 
 .cover-page .cover-tagline {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     font-style: italic;
-    color: var(--soe-ink-muted);
+    color: #94a3b8;
     margin-top: var(--space-xl);
 }
 
 .cover-page .brand-line {
     display: block;
-    width: 80px;
-    height: 4px;
+    width: 60px;
+    height: 3px;
     margin: var(--space-lg) auto;
     border-radius: 2px;
-    background: linear-gradient(90deg, var(--soe-gold), #F4C95D);
 }
 
 
 /* ═══════════════════════════════════════════════════
- *  LAND HEADER — Gradient Banner
+ *  LAND HEADER
  * ═══════════════════════════════════════════════════ */
 
 .land-header {
-    padding: var(--space-xl) var(--space-xl) var(--space-lg);
+    padding: var(--space-lg) var(--space-xl);
+    border-bottom: 3px solid var(--accent-color, #d4a843);
     margin-bottom: var(--space-xl);
     page-break-before: always;
-    background: linear-gradient(135deg, var(--accent-color) 0%, transparent 60%),
-                linear-gradient(180deg, var(--soe-cream) 0%, var(--soe-warm-white) 100%);
-    border-bottom: 4px solid var(--accent-color);
-    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
-    position: relative;
 }
 
 .land-header .land-number {
-    font-family: var(--font-body);
     font-size: 0.75rem;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.18em;
-    color: var(--accent-color);
+    letter-spacing: 0.15em;
+    color: var(--accent-color, #94a3b8);
     margin-bottom: var(--space-xs);
-    opacity: 0.85;
 }
 
 .land-header .land-name {
-    font-family: var(--font-display);
-    font-size: 2rem;
-    font-weight: 400;
-    color: var(--soe-ink);
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #0f172a;
     margin-bottom: var(--space-xs);
 }
 
 .land-header .land-characters {
-    font-family: var(--font-body);
     font-size: 0.95rem;
-    color: var(--soe-ink-muted);
+    color: #64748b;
     font-style: italic;
 }
 
-.land-header .land-characters strong {
-    font-weight: 700;
-    color: var(--accent-color);
-    font-style: normal;
-}
-
 .land-header .land-icon {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-right: var(--space-sm);
     vertical-align: middle;
-    filter: drop-shadow(0 2px 3px rgba(0,0,0,0.1));
 }
 
 
 /* ═══════════════════════════════════════════════════
- *  SCENE HEADER
+ *  SCENE HEADER (Sub-scene within a Land)
  * ═══════════════════════════════════════════════════ */
 
 .scene-header {
     padding: var(--space-md) 0;
-    border-bottom: 2px solid var(--accent-color);
+    border-bottom: var(--border-light);
     margin-bottom: var(--space-lg);
     page-break-before: always;
 }
 
 .scene-header .scene-title {
-    font-family: var(--font-display);
     font-size: 1.35rem;
-    font-weight: 400;
-    color: var(--soe-ink);
+    font-weight: 600;
+    color: #1e293b;
 }
 
 .scene-header .scene-description {
-    font-size: 0.9rem;
-    color: var(--soe-ink-muted);
+    font-size: 0.85rem;
+    color: #64748b;
     margin-top: var(--space-xs);
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 
 /* ═══════════════════════════════════════════════════
- *  ILLUSTRATION — Storybook Frame
+ *  ILLUSTRATION AREA (Print Referencing)
  * ═══════════════════════════════════════════════════ */
 
 .scene-illustration {
     width: 100%;
     min-height: 280px;
-    border: 3px solid var(--accent-color);
-    border-radius: var(--radius-xl);
-    background: var(--soe-warm-white);
+    border: var(--border-light);
+    border-radius: var(--radius-lg);
+    background: #f8fafc;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: var(--space-xl);
     position: relative;
     overflow: hidden;
-    box-shadow: var(--shadow-medium),
-                inset 0 0 20px rgba(232, 163, 23, 0.04);
 }
 
 .scene-illustration img {
@@ -322,7 +241,7 @@ p {
 }
 
 .scene-illustration .placeholder-text {
-    color: var(--soe-ink-muted);
+    color: #94a3b8;
     font-size: 0.85rem;
     font-style: italic;
     text-align: center;
@@ -332,19 +251,17 @@ p {
 /* Numbered callout markers overlaid on scene */
 .callout-marker {
     position: absolute;
-    width: 26px;
-    height: 26px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
-    background: var(--accent-color);
+    background: var(--accent-color, #d4a843);
     color: #ffffff;
-    font-family: var(--font-body);
     font-size: 0.7rem;
     font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    border: 2px solid #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
 /* Scene image (when actual illustration exists) */
@@ -352,114 +269,80 @@ p {
     width: 100%;
     max-width: 100%;
     height: auto;
-    border-radius: var(--radius-xl);
-    box-shadow: var(--shadow-medium);
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
     display: block;
     margin: 0 auto;
 }
 
 
 /* ═══════════════════════════════════════════════════
- *  VOCABULARY TABLE — Warm Palette
+ *  VOCABULARY TABLE
  * ═══════════════════════════════════════════════════ */
 
 .vocab-table {
     width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
+    border-collapse: collapse;
     margin-bottom: var(--space-xl);
     font-size: 10.5pt;
-    border-radius: var(--radius-md);
-    overflow: hidden;
-    box-shadow: var(--shadow-soft);
 }
 
 .vocab-table thead {
-    background: linear-gradient(135deg, var(--accent-color), var(--accent-dark, #B8820E));
+    background: #f1f5f9;
 }
 
 .vocab-table th {
     text-align: left;
     padding: var(--space-sm) var(--space-md);
-    font-family: var(--font-body);
     font-size: 0.75rem;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: #ffffff;
-    border-bottom: none;
+    letter-spacing: 0.08em;
+    color: #64748b;
+    border-bottom: 2px solid #e2e8f0;
 }
 
 .vocab-table td {
     padding: var(--space-sm) var(--space-md);
-    border-bottom: 1px solid #F0E6D8;
+    border-bottom: 1px solid #f1f5f9;
     vertical-align: middle;
 }
 
-/* Warm zebra striping */
-.vocab-table tbody tr:nth-child(even) {
-    background: #FDF6EC;
-}
-
-.vocab-table tbody tr:nth-child(odd) {
-    background: #FFFDF8;
-}
-
 .vocab-table tr:hover {
-    background: #FFF3D6;
+    background: #fefce8;
 }
 
-/* Column: Number badge */
+/* Column widths */
 .vocab-table .col-num {
-    width: 42px;
+    width: 40px;
     text-align: center;
-    font-family: var(--font-display);
-    font-weight: 400;
-    font-size: 0.8rem;
-    color: #ffffff;
-}
-
-.vocab-table .col-num {
-    position: relative;
-}
-
-.vocab-table td.col-num {
-    background: var(--accent-color);
-    color: #ffffff;
-    font-family: var(--font-display);
-    font-size: 0.85rem;
-    text-align: center;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
-}
-
-/* Column: Word */
-.vocab-table .col-word {
-    font-family: var(--font-body);
     font-weight: 700;
-    color: var(--soe-ink);
-    font-size: 11.5pt;
+    color: var(--accent-color, #d4a843);
 }
 
-/* Column: Phonetic */
+.vocab-table .col-word {
+    font-weight: 600;
+    color: #0f172a;
+    font-size: 11pt;
+}
+
 .vocab-table .col-phonetic {
     font-style: italic;
-    color: var(--soe-ink-muted);
+    color: #6b7280;
     font-size: 9.5pt;
 }
 
-/* Column: Context */
 .vocab-table .col-context {
-    color: var(--soe-ink-soft);
+    color: #374151;
     font-size: 9.5pt;
     line-height: 1.5;
 }
 
-/* Column: Translation */
 .vocab-table .col-translation {
-    color: var(--soe-ink-muted);
+    color: #94a3b8;
     font-style: italic;
     font-size: 9pt;
-    border-left: 1px dashed #E8DDD0;
+    border-left: 1px dashed #e5e7eb;
     min-width: 100px;
 }
 
@@ -467,12 +350,11 @@ p {
 .vocab-table .col-asl {
     font-style: italic;
     font-size: 8.5pt;
-    color: #5B4D8A;
-    border-left: 3px solid #A78BFA;
-    padding-left: 10px;
+    color: #4a5568;
+    border-left: 2px solid #8B5CF6;
+    padding-left: 8px;
     min-width: 120px;
     line-height: 1.4;
-    background: rgba(167, 139, 250, 0.04);
 }
 
 .vocab-table.has-asl th:nth-last-child(2) {
@@ -486,68 +368,37 @@ p {
 
 
 /* ═══════════════════════════════════════════════════
- *  CHARACTER TIP BOX — Speech Bubble
+ *  CHARACTER TIP BOX
  * ═══════════════════════════════════════════════════ */
 
 .character-tip {
-    background: linear-gradient(135deg, var(--accent-light, #FFF8E7) 0%, #FFFDF8 100%);
-    border: 2px solid var(--accent-color);
-    border-radius: var(--radius-lg);
-    padding: var(--space-lg) var(--space-xl);
-    margin: var(--space-xl) 0;
+    background: #f0fdf4;
+    border-left: 4px solid var(--accent-color, #10B981);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    padding: var(--space-md) var(--space-lg);
+    margin: var(--space-lg) 0;
     position: relative;
-    box-shadow: var(--shadow-soft);
-}
-
-/* Speech bubble "tail" */
-.character-tip::before {
-    content: '';
-    position: absolute;
-    top: -12px;
-    left: 32px;
-    width: 24px;
-    height: 24px;
-    background: var(--accent-light, #FFF8E7);
-    border-top: 2px solid var(--accent-color);
-    border-left: 2px solid var(--accent-color);
-    transform: rotate(45deg);
 }
 
 .character-tip .tip-character {
-    font-family: var(--font-display);
-    font-weight: 400;
-    font-size: 0.95rem;
-    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--accent-color, #10B981);
     margin-bottom: var(--space-xs);
 }
 
 .character-tip .tip-text {
-    font-family: var(--font-body);
-    font-size: 0.95rem;
-    color: var(--soe-ink-soft);
-    line-height: 1.7;
+    font-size: 0.9rem;
+    color: #374151;
+    line-height: 1.6;
     font-style: italic;
 }
 
-/* Decorative quote mark */
-.character-tip .tip-text::before {
-    content: '\201C';
-    font-family: var(--font-display);
-    font-size: 2rem;
-    color: var(--accent-color);
-    opacity: 0.3;
-    position: absolute;
-    top: var(--space-md);
-    right: var(--space-lg);
-    line-height: 1;
-}
-
 .character-tip .tip-icon {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     position: absolute;
     top: var(--space-sm);
     right: var(--space-md);
-    filter: drop-shadow(0 2px 3px rgba(0,0,0,0.08));
 }
 
 
@@ -562,7 +413,6 @@ p {
 
 .how-to-use h2 {
     margin-bottom: var(--space-lg);
-    color: var(--soe-gold);
 }
 
 .how-to-use ol {
@@ -572,21 +422,20 @@ p {
 
 .how-to-use li {
     margin-bottom: var(--space-md);
-    color: var(--soe-ink-soft);
-    line-height: 1.8;
+    color: #374151;
+    line-height: 1.7;
 }
 
 .how-to-use .key-label {
     display: inline-block;
-    background: var(--soe-warm-white);
-    border: 2px solid #E8DDD0;
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
     border-radius: var(--radius-sm);
-    padding: 2px 10px;
+    padding: 2px 8px;
     font-size: 0.8rem;
-    font-weight: 700;
-    color: var(--soe-ink-soft);
+    font-weight: 600;
+    color: #475569;
     margin-right: var(--space-xs);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
 
@@ -604,12 +453,11 @@ p {
 }
 
 .toc-land-title {
-    font-family: var(--font-display);
-    font-size: 1.15rem;
-    font-weight: 400;
-    color: var(--soe-ink);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #0f172a;
     padding-bottom: var(--space-xs);
-    border-bottom: 3px solid var(--accent-color);
+    border-bottom: 2px solid var(--accent-color, #e2e8f0);
     margin-bottom: var(--space-sm);
 }
 
@@ -621,8 +469,7 @@ p {
 .toc-scene-list li {
     padding: var(--space-xs) 0;
     font-size: 0.9rem;
-    color: var(--soe-ink-soft);
-    border-bottom: 1px dotted #E8DDD0;
+    color: #374151;
 }
 
 .toc-scene-list li a {
@@ -636,34 +483,30 @@ p {
 
 .toc-scene-list .toc-page-num {
     float: right;
-    color: var(--soe-ink-muted);
+    color: #94a3b8;
     font-size: 0.8rem;
-    font-family: var(--font-body);
-    font-weight: 600;
 }
 
 
 /* ═══════════════════════════════════════════════════
- *  DIFFERENTIATION LEGEND
+ *  MULTILEVEL DIFFERENTIATION LEGEND
  * ═══════════════════════════════════════════════════ */
 
 .differentiation-legend {
-    background: linear-gradient(135deg, #FFF8E7 0%, #FFFDF8 100%);
-    border: 2px solid #F4C95D;
+    background: #fffbeb;
+    border: 1px solid #fde68a;
     border-radius: var(--radius-md);
     padding: var(--space-md) var(--space-lg);
     margin: var(--space-lg) 0;
     font-size: 0.85rem;
-    box-shadow: var(--shadow-soft);
 }
 
 .differentiation-legend h4 {
-    font-family: var(--font-display);
-    font-size: 0.85rem;
-    font-weight: 400;
+    font-size: 0.8rem;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.12em;
-    color: var(--soe-gold);
+    letter-spacing: 0.1em;
+    color: #92400e;
     margin-bottom: var(--space-sm);
 }
 
@@ -675,13 +518,13 @@ p {
 }
 
 .differentiation-legend .legend-label {
-    font-weight: 700;
+    font-weight: 600;
     white-space: nowrap;
-    color: var(--soe-ink-soft);
+    color: #78350f;
 }
 
 .differentiation-legend .legend-desc {
-    color: var(--soe-ink-muted);
+    color: #92400e;
 }
 
 
@@ -689,336 +532,61 @@ p {
  *  UTILITY CLASSES
  * ═══════════════════════════════════════════════════ */
 
-.text-center { text-align: center; }
-.text-muted  { color: var(--soe-ink-muted); }
-.text-small  { font-size: 0.8rem; }
+.text-center {
+    text-align: center;
+}
 
-.mt-sm { margin-top: var(--space-sm); }
-.mt-md { margin-top: var(--space-md); }
-.mt-lg { margin-top: var(--space-lg); }
-.mb-sm { margin-bottom: var(--space-sm); }
-.mb-md { margin-bottom: var(--space-md); }
-.mb-lg { margin-bottom: var(--space-lg); }
+.text-muted {
+    color: #94a3b8;
+}
+
+.text-small {
+    font-size: 0.8rem;
+}
+
+.mt-sm {
+    margin-top: var(--space-sm);
+}
+
+.mt-md {
+    margin-top: var(--space-md);
+}
+
+.mt-lg {
+    margin-top: var(--space-lg);
+}
+
+.mb-sm {
+    margin-bottom: var(--space-sm);
+}
+
+.mb-md {
+    margin-bottom: var(--space-md);
+}
+
+.mb-lg {
+    margin-bottom: var(--space-lg);
+}
 
 .page-break {
     page-break-before: always;
 }
 
-
-/* ═══════════════════════════════════════════════════
- *  DECORATIVE ELEMENTS & MICRO-INTERACTIONS
- * ═══════════════════════════════════════════════════ */
-
-/* Ornamental section divider */
-.section-divider {
-    text-align: center;
-    margin: var(--space-xl) 0;
-    color: var(--soe-ink-muted);
-    font-size: 1.2rem;
-    letter-spacing: 0.5em;
-    opacity: 0.4;
-}
-
-/* Decorative dot border */
-hr {
-    border: none;
-    border-top: 3px dotted #E8DDD0;
-    margin: var(--space-xl) var(--space-2xl);
-}
-
-/* Strong/bold text gets a warm tint */
-strong {
-    color: var(--soe-ink);
-    font-weight: 700;
-}
-
-
-/* ═══════════════════════════════════════════════════
- *  PRINT-SPECIFIC OVERRIDES (Full Print Stylesheet)
- * ═══════════════════════════════════════════════════ */
-
+/* ── Print-specific overrides ── */
 @media print {
-
-    /* ── Page Setup ── */
-    @page {
-        size: letter;
-        margin: 0.75in 0.6in;
-    }
-
-    @page :first {
-        margin-top: 1.2in;
-    }
-
-    /* ── Base Reset for Print ── */
     body {
         font-size: 10pt;
-        line-height: 1.5;
-        background: #ffffff;
-        color: #1a1a1a;
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
     }
 
-    /* ── Typography for Print ── */
-    h1 {
-        font-size: 18pt;
-        color: #000000;
-        margin-bottom: 8pt;
-    }
-
-    h2 {
-        font-size: 14pt;
-        color: #1a1a1a;
-        margin-bottom: 6pt;
-    }
-
-    h3 {
-        font-size: 11pt;
-        color: #333333;
-        margin-bottom: 4pt;
-    }
-
-    p {
-        color: #333333;
-        orphans: 3;
-        widows: 3;
-    }
-
-    /* ── Cover Page ── */
-    .cover-page {
-        background: none;
-        padding: 2in 1in;
-    }
-
-    .cover-page .cover-title {
-        font-size: 28pt;
-        text-shadow: none;
-        color: #000000;
-    }
-
-    .cover-page .brand-line {
-        background: #000000;
-    }
-
-    /* ── Land Header ── */
-    .land-header {
-        background: none;
-        border-bottom: 3pt solid var(--accent-color);
-        border-radius: 0;
-        padding: 12pt 0;
-        page-break-before: always;
-        page-break-after: avoid;
-    }
-
-    .land-header .land-name {
-        font-size: 20pt;
-        color: #000000;
-    }
-
-    .land-header .land-number {
-        color: #555555;
-    }
-
-    .land-header .land-characters {
-        color: #555555;
-    }
-
-    .land-header .land-characters strong {
-        color: #333333;
-    }
-
-    .land-header .land-icon {
-        filter: none;
-    }
-
-    /* ── Scene Header ── */
-    .scene-header {
-        page-break-before: always;
-        page-break-after: avoid;
-        border-bottom: 2pt solid var(--accent-color);
-    }
-
-    .scene-header .scene-title {
-        font-size: 13pt;
-        color: #1a1a1a;
-    }
-
-    .scene-header .scene-description {
-        color: #555555;
-    }
-
-    /* ── Illustration ── */
     .scene-illustration {
-        min-height: auto;
-        max-height: 4.5in;
-        box-shadow: none;
-        border: 1.5pt solid #cccccc;
-        border-radius: 8pt;
-        margin-bottom: 12pt;
-        page-break-inside: avoid;
+        min-height: 200px;
     }
 
-    .scene-image {
-        box-shadow: none;
-        max-height: 4.5in;
-        border-radius: 8pt;
-    }
-
-    /* ── Vocabulary Table ── */
     .vocab-table {
-        font-size: 8.5pt;
-        box-shadow: none;
-        border-radius: 0;
-        page-break-inside: auto;
+        font-size: 9pt;
     }
 
-    .vocab-table thead {
-        display: table-header-group; /* Repeat headers on each page */
-        background: #f0f0f0;
-    }
-
-    .vocab-table th {
-        color: #333333;
-        border-bottom: 2pt solid #999999;
-        padding: 4pt 6pt;
-        font-size: 7pt;
-    }
-
-    .vocab-table td {
-        padding: 3pt 6pt;
-        border-bottom: 0.5pt solid #e0e0e0;
-    }
-
-    .vocab-table tbody tr:nth-child(even) {
-        background: #f8f8f8;
-    }
-
-    .vocab-table tbody tr:nth-child(odd) {
-        background: #ffffff;
-    }
-
-    .vocab-table tr:hover {
-        background: inherit; /* No hover in print */
-    }
-
-    .vocab-table tr {
-        page-break-inside: avoid;
-    }
-
-    .vocab-table td.col-num {
-        background: #e8e8e8;
-        color: #333333;
-        border-bottom: 0.5pt solid #cccccc;
-    }
-
-    .vocab-table .col-word {
-        font-size: 9.5pt;
-        color: #000000;
-    }
-
-    .vocab-table .col-phonetic {
-        color: #666666;
-        font-size: 8pt;
-    }
-
-    .vocab-table .col-context {
-        color: #444444;
-        font-size: 8pt;
-    }
-
-    .vocab-table .col-translation {
-        border-left: 0.5pt dashed #cccccc;
-        color: #777777;
-        font-size: 7.5pt;
-    }
-
-    .vocab-table .col-asl {
-        border-left: 1.5pt solid #9966cc;
-        color: #555555;
-        font-size: 7.5pt;
-        background: none;
-    }
-
-    .vocab-table.has-asl th:nth-last-child(2) {
-        background: #9966cc;
-        color: #ffffff;
-    }
-
-    /* ── Character Tip Box ── */
     .character-tip {
-        background: #f7f7f7;
-        box-shadow: none;
-        border: 1.5pt solid var(--accent-color);
-        border-radius: 6pt;
-        padding: 8pt 12pt;
-        page-break-inside: avoid;
-    }
-
-    .character-tip::before {
-        display: none; /* Remove speech bubble tail in print */
-    }
-
-    .character-tip .tip-character {
-        font-size: 9pt;
-        color: #333333;
-    }
-
-    .character-tip .tip-text {
-        font-size: 9pt;
-        color: #444444;
-    }
-
-    .character-tip .tip-text::before {
-        display: none;
-    }
-
-    /* ── How To Use ── */
-    .how-to-use {
-        page-break-after: always;
-    }
-
-    .how-to-use .key-label {
-        background: #f0f0f0;
-        border: 1pt solid #cccccc;
-        box-shadow: none;
-    }
-
-    /* ── TOC ── */
-    .toc-page {
-        page-break-after: always;
-    }
-
-    .toc-scene-list li {
-        border-bottom: 0.5pt dotted #cccccc;
-    }
-
-    /* ── Differentiation Legend ── */
-    .differentiation-legend {
-        background: #f8f8f8;
-        border: 1pt solid #dddddd;
-        box-shadow: none;
-        page-break-inside: avoid;
-    }
-
-    /* ── Link / URL handling ── */
-    a {
-        color: #333333;
-        text-decoration: none;
-    }
-
-    a[href^="http"]::after {
-        content: " (" attr(href) ")";
-        font-size: 7pt;
-        color: #888888;
-    }
-
-    /* ── Global page break control ── */
-    .page-break {
-        page-break-before: always;
-    }
-
-    img {
-        max-width: 100% !important;
-        page-break-inside: avoid;
+        background: #f9f9f9;
     }
 }

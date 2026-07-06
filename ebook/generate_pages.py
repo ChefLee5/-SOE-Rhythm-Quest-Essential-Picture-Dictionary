@@ -54,21 +54,21 @@ LANDS = {
     },
     5: {
         "name": "Vitalis",
-        "icon": "❤️",
+        "icon": "🤸",
         "color": "#c4785a",
         "characters": "Felix &amp; Amara",
         "char_desc": '<strong>Felix</strong> the Body Guardian &amp; <strong>Amara</strong> the Wellness Guide',
     },
     6: {
-        "name": "Sophia",
-        "icon": "⚖️",
-        "color": "#5ba4c9",
+        "name": "Luminosity",
+        "icon": "📖",
+        "color": "#d4897a",
         "characters": "Ezra &amp; Athena",
         "char_desc": '<strong>Ezra</strong> the Builder &amp; <strong>Athena</strong> the Wise',
     },
     7: {
         "name": "Celestia",
-        "icon": "🔭",
+        "icon": "⏰",
         "color": "#9678c4",
         "characters": "Elias &amp; Selene",
         "char_desc": '<strong>Elias</strong> the Star Gazer &amp; <strong>Selene</strong> the Time Keeper',
@@ -384,6 +384,29 @@ def generate_content_opf(all_pages):
         manifest_items.append(f'    <item id="{item_id}" href="pages/{page["filename"]}" media-type="application/xhtml+xml"/>')
         spine_items.append(f'    <itemref idref="{item_id}"/>')
 
+    # Add image manifest items for all scene illustrations
+    images_dir = PAGES_DIR.parent / 'images'
+    if images_dir.exists():
+        for img in sorted(images_dir.iterdir()):
+            if img.is_file() and img.suffix.lower() in ('.png', '.jpg', '.jpeg', '.gif', '.svg'):
+                img_id = 'img_' + img.stem.replace('-', '_').replace('.', '_')
+                media_types = {
+                    '.png': 'image/png',
+                    '.jpg': 'image/jpeg',
+                    '.jpeg': 'image/jpeg',
+                    '.gif': 'image/gif',
+                    '.svg': 'image/svg+xml',
+                }
+                media_type = media_types.get(img.suffix.lower(), 'image/png')
+                manifest_items.append(f'    <item id="{img_id}" href="images/{img.name}" media-type="{media_type}"/>')
+
+    # Compute total word count for description
+    total_words = sum(p['word_count'] for p in all_pages)
+
+    # Use current date for modified timestamp
+    from datetime import datetime, timezone
+    modified_date = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+
     opf = f"""<?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid" xml:lang="en">
 
@@ -392,9 +415,9 @@ def generate_content_opf(all_pages):
     <dc:title>SOE Rhythm Quest: Essential Picture Dictionary</dc:title>
     <dc:creator>The Sound of Essentials</dc:creator>
     <dc:language>en</dc:language>
-    <dc:description>A 2,020-word picture dictionary mapped to the Oxford Picture Dictionary scope, contextualized in the 7 Lands of the SOE Rhythm Quest universe.</dc:description>
+    <dc:description>A {total_words:,}-word picture dictionary mapped to the Oxford Picture Dictionary scope, contextualized in the 7 Lands of the SOE Rhythm Quest universe.</dc:description>
     <dc:rights>© 2026 The Sound of Essentials. All rights reserved.</dc:rights>
-    <meta property="dcterms:modified">2026-03-02T00:00:00Z</meta>
+    <meta property="dcterms:modified">{modified_date}</meta>
   </metadata>
 
   <manifest>

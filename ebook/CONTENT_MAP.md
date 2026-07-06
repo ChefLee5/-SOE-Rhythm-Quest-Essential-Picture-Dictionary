@@ -141,8 +141,8 @@
 
 ---
 
-## Land 6 — 📚 Sophia
-*Community, Work & Life Skills · Marcus & Elena*
+## Land 6 — 📖 Luminosity
+*Community, Work & Life Skills · Ezra & Athena*
 
 | # | Scene | XHTML File | Words |
 |---|-------|------------|-------|
