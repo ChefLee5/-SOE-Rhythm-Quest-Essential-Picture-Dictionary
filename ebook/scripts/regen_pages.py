@@ -1,7 +1,16 @@
 #!/usr/bin/env python3
 """
-Regenerate specific XHTML pages from markdown source.
-Targets the 8 pages where the XHTML is out of sync with the expanded markdown.
+Regenerate out-of-sync XHTML pages from markdown source.
+
+Auto-discovers every "## Scene N:" in the land content files, maps each to
+its XHTML page by filename slug (FILENAME_OVERRIDES handles irregular names),
+compares MD vs XHTML word counts, and regenerates only the stale pages.
+Back-matter pages (back_*.md) use different templates and are NOT covered.
+
+Usage:
+  py ebook/scripts/regen_pages.py            # regenerate stale pages
+  py ebook/scripts/regen_pages.py --check    # report only, write nothing
+  py ebook/scripts/regen_pages.py --force    # regenerate ALL matched pages
 """
 
 import re
@@ -13,8 +22,9 @@ BASE_DIR = Path(__file__).parent.parent
 PAGES_DIR = BASE_DIR / "OEBPS" / "pages"
 CONTENT_DIR = BASE_DIR / "content"
 
-# Map of: (md_file, scene_number) -> xhtml_filename
-PAGES_TO_FIX = {
+# Explicit (md_file, scene_number) -> xhtml_filename mappings for scenes whose
+# page filename does not match slugify(scene title). Checked before the slug.
+FILENAME_OVERRIDES = {
     ("land2_numeria.md", 4):   "land2-the-bank.xhtml",
     ("land4_aquaria.md", 5):   "land4-hotels-lodging.xhtml",
     ("land6_luminosity.md", 7): "land6-money-management-bills.xhtml",
@@ -30,6 +40,20 @@ PAGES_TO_FIX = {
 
 # Land metadata
 LAND_INFO = {
+    "land1_harmonia.md": {
+        "land_num": 1, "land_total": 7,
+        "land_name": "Harmonia", "land_icon": "🎵",
+        "accent": "#d4a843",
+        "char1": "Kenji", "char2": "Aiko",
+        "char_desc": "Guided by <strong>Kenji</strong> the Rhythm Keeper &amp; <strong>Aiko</strong> the Melody Weaver",
+    },
+    "land5_vitalis.md": {
+        "land_num": 5, "land_total": 7,
+        "land_name": "Vitalis", "land_icon": "🤸",
+        "accent": "#c4785a",
+        "char1": "Felix", "char2": "Amara",
+        "char_desc": "Guided by <strong>Felix</strong> the Body Guardian &amp; <strong>Amara</strong> the Wellness Guide",
+    },
     "land2_numeria.md": {
         "land_num": 2, "land_total": 7,
         "land_name": "Numeria", "land_icon": "🔢",
@@ -240,51 +264,80 @@ def generate_xhtml(scene, land_info, xhtml_filename):
     return xhtml
 
 
+def slugify(title):
+    """Scene title -> page filename slug (matches the existing naming scheme)."""
+    s = title.lower()
+    s = s.replace("&", " ")
+    s = re.sub(r"[’']", "", s)
+    s = re.sub(r"[^a-z0-9]+", "-", s)
+    return s.strip("-")
+
+
+def discover_scenes():
+    """Yield (md_name, scene_num, title, xhtml_filename_or_None) for every land scene."""
+    for md_name in sorted(LAND_INFO):
+        md_path = CONTENT_DIR / md_name
+        text = md_path.read_text(encoding='utf-8')
+        land_num = LAND_INFO[md_name]['land_num']
+        for m in re.finditer(r'^## Scene (\d+): (.+)$', text, re.M):
+            sn, title = int(m.group(1)), m.group(2).strip()
+            candidate = FILENAME_OVERRIDES.get((md_name, sn)) or f"land{land_num}-{slugify(title)}.xhtml"
+            yield md_name, sn, title, (candidate if (PAGES_DIR / candidate).exists() else None)
+
+
+def xhtml_word_count(xhtml_path):
+    with open(xhtml_path, 'r', encoding='utf-8') as f:
+        return len(re.findall(r'<td class="col-num">\d+</td>', f.read()))
+
+
 def main():
     sys.stdout.reconfigure(encoding='utf-8')
-    
+    check_only = "--check" in sys.argv
+    force = "--force" in sys.argv
+
     print("=" * 80)
-    print("REGENERATING OUT-OF-SYNC XHTML PAGES")
+    print("REGENERATING OUT-OF-SYNC XHTML PAGES" + (" (check only)" if check_only else ""))
     print("=" * 80)
-    
-    fixed = 0
-    for (md_name, scene_num), xhtml_name in PAGES_TO_FIX.items():
+
+    matched = unmatched = in_sync = fixed = errors = 0
+    for md_name, scene_num, title, xhtml_name in discover_scenes():
+        if xhtml_name is None:
+            unmatched += 1
+            print(f"⚠️  NO PAGE FOUND: {md_name} Scene {scene_num}: {title}")
+            print(f"    (expected land{LAND_INFO[md_name]['land_num']}-{slugify(title)}.xhtml — "
+                  f"add a FILENAME_OVERRIDES entry, or create page + OPF/nav entries for a new scene)")
+            continue
+        matched += 1
+
         md_path = CONTENT_DIR / md_name
         xhtml_path = PAGES_DIR / xhtml_name
-        land_info = LAND_INFO[md_name]
-        
-        print(f"\n📄 {md_name} Scene {scene_num} -> {xhtml_name}")
-        
-        # Parse scene from markdown
         scene = parse_scene(md_path, scene_num)
-        
         if not scene['entries']:
-            print(f"  ❌ ERROR: No entries found for Scene {scene_num} in {md_name}")
+            errors += 1
+            print(f"❌ ERROR: no entries parsed for {md_name} Scene {scene_num}")
             continue
-        
-        # Check current XHTML word count
-        if xhtml_path.exists():
-            with open(xhtml_path, 'r', encoding='utf-8') as f:
-                old_content = f.read()
-            old_count = len(re.findall(r'<td class="col-num">\d+</td>', old_content))
-            print(f"  Current XHTML: {old_count} words")
-        
-        print(f"  MD Source: {len(scene['entries'])} words")
-        print(f"  Scene title: {scene['title']}")
-        
-        # Generate new XHTML
-        new_xhtml = generate_xhtml(scene, land_info, xhtml_name)
-        
-        # Write
+
+        old_count = xhtml_word_count(xhtml_path)
+        if old_count == len(scene['entries']) and not force:
+            in_sync += 1
+            continue
+
+        print(f"📄 {md_name} Scene {scene_num} -> {xhtml_name}")
+        print(f"   XHTML: {old_count} words | MD: {len(scene['entries'])} words")
+        if check_only:
+            continue
+        new_xhtml = generate_xhtml(scene, LAND_INFO[md_name], xhtml_name)
         with open(xhtml_path, 'w', encoding='utf-8', newline='\r\n') as f:
             f.write(new_xhtml)
-        
-        print(f"  ✅ Regenerated: {len(scene['entries'])} words written")
+        print(f"   ✅ Regenerated: {len(scene['entries'])} words written")
         fixed += 1
-    
+
     print(f"\n{'='*80}")
-    print(f"DONE: {fixed}/{len(PAGES_TO_FIX)} pages regenerated")
+    print(f"scenes matched: {matched} | in sync: {in_sync} | regenerated: {fixed} | "
+          f"unmatched: {unmatched} | errors: {errors}")
     print("="*80)
+    if unmatched or errors:
+        sys.exit(1)
 
 
 if __name__ == "__main__":
