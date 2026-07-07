@@ -221,6 +221,12 @@
 | 18 | Swimming pool | /SWIM-ing POOL/ | The hotel swimming pool is open until nine P.M. | Fingerspell or sign each word | ___________ |
 | 19 | Luggage rack | /LUG-ij RAK/ | Place your suitcase on the luggage rack. | Fingerspell or sign each word | ___________ |
 | 20 | Complimentary | /kom-plih-MEN-tuh-ree/ | The complimentary breakfast is free for all guests. | Fingerspell or sign each word | ___________ |
+| 21 | Concierge | /kon-see-AIRZH/ | Ask the concierge for restaurant recommendations. | Fingerspell or sign each word | ___________ |
+| 22 | Amenities | /uh-MEN-ih-teez/ | The hotel amenities include a gym and a pool. | Fingerspell or sign each word | ___________ |
+| 23 | Valet | /va-LAY/ | The valet parks your car when you arrive. | Fingerspell VALET | ___________ |
+| 24 | Extension | /ek-STEN-shun/ | Request an extension if you need to stay another night. | Fingerspell or sign each word | ___________ |
+| 25 | Early bird rate | /UR-lee BURD RAYT/ | Book an early bird rate for a lower price. | Fingerspell or sign each word | ___________ |
+| 26 | Late checkout | /LAYT CHEK-owt/ | Request late checkout if your flight is in the evening. | Fingerspell or sign each word | ___________ |
 
 > **🏨 Ronan's Tip:** *"Practice checking in! Say: 'Hello, I have a RESERVATION under the name ___. What FLOOR is my room on? What time is CHECK-OUT?' You're ready for any hotel in the world!"*
 

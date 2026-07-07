@@ -233,6 +233,16 @@
 | 13 | Evidence | /EV-ih-dents/ | Evidence supports your conclusion. | Fingerspell or sign each word | ___________ |
 | 14 | Measure | /MEZH-er/ | Measure the temperature every hour. | Both Y-hands tap together (SAME SIZE) | ___________ |
 | 15 | Record | /rih-KORD/ | Record your observations in a science journal. | Fingerspell RECORD | ___________ |
+| 16 | Analyze | /AN-uh-lyz/ | Analyze the data to find patterns and meaning. | Fingerspell or sign each word | ___________ |
+| 17 | Predict | /prih-DIKT/ | Use your data to predict what will happen next. | Fingerspell or sign each word | ___________ |
+| 18 | Sample | /SAM-pul/ | Take a sample of the water to test for purity. | Fingerspell SAMPLE | ___________ |
+| 19 | Procedure | /proh-SEE-jer/ | Follow the procedure step by step for accurate results. | Fingerspell or sign each word | ___________ |
+| 20 | Independent variable | /in-dih-PEN-dent VAIR-ee-uh-bul/ | The independent variable is what the scientist changes. | Fingerspell or sign each word | ___________ |
+| 21 | Dependent variable | /dih-PEN-dent VAIR-ee-uh-bul/ | The dependent variable is what you measure in the experiment. | Fingerspell or sign each word | ___________ |
+| 22 | Accuracy | /AK-yur-uh-see/ | Accuracy means how close your measurement is to the real value. | Fingerspell or sign each word | ___________ |
+| 23 | Trial | /TRY-ul/ | Run the trial three times to check your results. | Fingerspell TRIAL | ___________ |
+| 24 | Scientific method | /sy-en-TIF-ik METH-ud/ | The scientific method is a step-by-step way to answer questions. | Fingerspell or sign each word | ___________ |
+| 25 | Bias | /BY-us/ | A bias is a preference that can affect results unfairly. | Fingerspell BIAS | ___________ |
 
 > **🧪 Elias's Tip:** *"YOU are a scientist! Follow the steps: OBSERVE, QUESTION, HYPOTHESIS, EXPERIMENT, CONCLUSION. This process works for ANY problem, in ANY language!"*
 
@@ -259,6 +269,16 @@
 | 13 | New moon | /NOO MOON/ | The new moon is invisible to us in the sky. | Fingerspell or sign each word | ___________ |
 | 14 | Full moon | /FOOL MOON/ | The full moon lights up the night brightly. | Fingerspell or sign each word | ___________ |
 | 15 | Crescent | /KRES-ent/ | A crescent moon is a thin sliver in the sky. | Fingerspell or sign each word | ___________ |
+| 16 | Waxing | /WAK-sing/ | A waxing moon is growing larger each night. | Fingerspell WAXING | ___________ |
+| 17 | Waning | /WAY-ning/ | A waning moon is getting smaller each night. | Fingerspell WANING | ___________ |
+| 18 | Quarter moon | /KWOR-ter MOON/ | The quarter moon is half light and half shadow. | Fingerspell or sign each word | ___________ |
+| 19 | Lunar cycle | /LOO-ner SY-kul/ | The lunar cycle takes about twenty-nine days. | Fingerspell or sign each word | ___________ |
+| 20 | Calendar | /KAL-en-der/ | Mark important dates on the calendar. | Fingerspell or sign each word | ___________ |
+| 21 | Week | /WEEK/ | A week has seven days. | 1-hand slides across opposite flat palm | ___________ |
+| 22 | Month | /MUNTH/ | A month is about four weeks long. | Fingerspell MONTH | ___________ |
+| 23 | Year | /YEER/ | A year is 365 days, or twelve months. | S-fists orbit each other (one trip around sun) | ___________ |
+| 24 | Season | /SEE-zun/ | Each season lasts about three months. | Fingerspell SEASON | ___________ |
+| 25 | Tides | /TYDZ/ | The moon's gravity causes ocean tides to rise and fall. | Fingerspell TIDES | ___________ |
 
 > **🌙 Selene's Tip:** *"Look at the moon tonight! What PHASE is it? Is it a CRESCENT? A FULL MOON? A NEW MOON? Track it every night for a month and you'll SEE the lunar cycle with your own eyes!"*
 
@@ -316,6 +336,16 @@
 | 13 | Persevere | /pur-suh-VEER/ | Persevere through challenges and never give up. | Fingerspell or sign each word | ___________ |
 | 14 | Succeed | /suk-SEED/ | You succeed when preparation meets opportunity. | Fingerspell or sign each word | ___________ |
 | 15 | Together | /too-GETH-er/ | Together, we can build a better world. | Fingerspell or sign each word | ___________ |
+| 16 | Possibility | /pos-ih-BIL-ih-tee/ | Every new day is a possibility waiting to happen. | Fingerspell or sign each word | ___________ |
+| 17 | Vision | /VIZH-un/ | A strong vision guides you to what you want to become. | V-hand moves forward from eyes | ___________ |
+| 18 | Leadership | /LEE-der-ship/ | Leadership means guiding others toward a shared goal. | Fingerspell or sign each word | ___________ |
+| 19 | Innovation | /in-oh-VAY-shun/ | Innovation means creating something the world has never seen. | Fingerspell or sign each word | ___________ |
+| 20 | Determination | /dih-tur-mih-NAY-shun/ | Determination means refusing to quit until you succeed. | Fingerspell or sign each word | ___________ |
+| 21 | Gratitude | /GRAT-ih-tood/ | Gratitude means being thankful for what you have. | Flat hand touches chin, moves forward (THANK) | ___________ |
+| 22 | Resilience | /rih-ZIL-ee-ents/ | Resilience means bouncing back after a setback. | Fingerspell or sign each word | ___________ |
+| 23 | Potential | /poh-TEN-shul/ | You have unlimited potential to learn and grow. | Fingerspell or sign each word | ___________ |
+| 24 | Compassion | /kum-PASH-un/ | Compassion for others makes the world a kinder place. | Fingerspell or sign each word | ___________ |
+| 25 | Legacy | /LEG-uh-see/ | Your legacy is the mark you leave on the world. | Fingerspell LEGACY | ___________ |
 
 > **✨ Elias & Selene's Final Tip:** *"You have traveled through ALL SEVEN LANDS. You have learned hundreds of words. But the most important word? TOGETHER. Say it: 'TOGETHER, we can do ANYTHING.' Now go — use every word you've learned — and change the world!"*
 

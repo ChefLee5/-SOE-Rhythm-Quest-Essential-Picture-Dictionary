@@ -15,6 +15,9 @@ CONTENT_DIR = BASE_DIR / "content"
 
 # Map of: (md_file, scene_number) -> xhtml_filename
 PAGES_TO_FIX = {
+    ("land2_numeria.md", 4):   "land2-the-bank.xhtml",
+    ("land4_aquaria.md", 5):   "land4-hotels-lodging.xhtml",
+    ("land6_luminosity.md", 7): "land6-money-management-bills.xhtml",
     ("land3_terrasol.md", 7):  "land3-silas-vestas-cottage-outside.xhtml",
     ("land3_terrasol.md", 14): "land3-rocks-minerals.xhtml",
     ("land3_terrasol.md", 15): "land3-recycling-sustainability.xhtml",
@@ -27,6 +30,20 @@ PAGES_TO_FIX = {
 
 # Land metadata
 LAND_INFO = {
+    "land2_numeria.md": {
+        "land_num": 2, "land_total": 7,
+        "land_name": "Numeria", "land_icon": "🔢",
+        "accent": "#7fb685",
+        "char1": "Kwame", "char2": "Octavia",
+        "char_desc": "Guided by <strong>Kwame</strong> the Pattern Master &amp; <strong>Octavia</strong> the Data Dancer",
+    },
+    "land4_aquaria.md": {
+        "land_num": 4, "land_total": 7,
+        "land_name": "Aquaria", "land_icon": "🌊",
+        "accent": "#2563EB",
+        "char1": "Ronan", "char2": "Nerissa",
+        "char_desc": "Guided by <strong>Ronan</strong> the Wave Rider &amp; <strong>Nerissa</strong> the Deep Diver",
+    },
     "land3_terrasol.md": {
         "land_num": 3, "land_total": 7,
         "land_name": "TerraSol", "land_icon": "🌿",

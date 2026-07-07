@@ -165,6 +165,12 @@
 | 18 | Teller | /TEL-er/ | The bank teller helps customers at the counter. | Fingerspell TELLER | ___________ |
 | 19 | Safe | /SAYF/ | The bank safe protects valuable items. | S-hands cross at wrists, then pull apart | ___________ |
 | 20 | Mortgage | /MOR-gij/ | A mortgage is a loan to buy a house. | Fingerspell or sign each word | ___________ |
+| 21 | Overdraft | /OH-ver-draft/ | An overdraft happens when you spend more than your balance. | Fingerspell or sign each word | ___________ |
+| 22 | Routing number | /ROO-ting NUM-ber/ | The routing number identifies your bank. | Fingerspell or sign each word | ___________ |
+| 23 | Credit score | /KRED-it SKOR/ | A good credit score helps you get loans. | Fingerspell or sign each word | ___________ |
+| 24 | Fraud | /FRAWD/ | Report fraud if someone steals your account information. | Fingerspell FRAUD | ___________ |
+| 25 | Financial aid | /fy-NAN-shul AYD/ | Apply for financial aid to help pay for school. | Fingerspell or sign each word | ___________ |
+| 26 | Investment account | /in-VEST-ment uh-KOWNT/ | An investment account helps your money grow over time. | Fingerspell or sign each word | ___________ |
 
 > **🏦 Octavia's Tip:** *"Knowing banking words protects you! Practice: 'I want to DEPOSIT money. I want to WITHDRAW money. What is my BALANCE?' These three sentences give you power at any bank."*
 
